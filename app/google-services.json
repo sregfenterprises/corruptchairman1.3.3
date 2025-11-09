@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "957584405837",
+    "project_id": "sweepstakeapp-1942d",
+    "storage_bucket": "sweepstakeapp-1942d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957584405837:android:9a012bb6332a6fd0bef304",
+        "android_client_info": {
+          "package_name": "com.example.sweepstakeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957584405837-eqrl852t4eii0h23ga26p9s2sk2ugl48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4upjxbgHWWzzat4VEJXHRhcBXddmRoBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957584405837-eqrl852t4eii0h23ga26p9s2sk2ugl48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957584405837:android:7c0a335b7da31b77bef304",
+        "android_client_info": {
+          "package_name": "com.sweepstakeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957584405837-eqrl852t4eii0h23ga26p9s2sk2ugl48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4upjxbgHWWzzat4VEJXHRhcBXddmRoBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957584405837-eqrl852t4eii0h23ga26p9s2sk2ugl48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5869811296676737~1324338921"
+    }
+  ],
+  "configuration_version": "1"
+}
