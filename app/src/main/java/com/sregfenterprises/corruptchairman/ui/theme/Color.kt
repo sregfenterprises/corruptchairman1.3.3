@@ -1,4 +1,4 @@
-package com.example.sweepstakeapp.ui.theme
+package com.sregfenterprises.corruptchairman.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
