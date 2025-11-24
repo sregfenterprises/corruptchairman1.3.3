@@ -9,7 +9,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.sregfenterprises.corruptchairman.model.Club
-import com.sregfenterprises.corruptchairman.viewmodel.TakeoverViewModel
+import com.sregfenterprises.corruptchairman.ui.takeover.TakeoverViewModel
 import kotlin.math.ceil
 
 @Composable

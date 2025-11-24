@@ -17,7 +17,7 @@ import com.sregfenterprises.corruptchairman.ui.mainscreen.MainScreen
 import com.sregfenterprises.corruptchairman.ui.takeover.TakeoverTeamScreen
 import com.sregfenterprises.corruptchairman.ui.theme.CorruptChairmanTheme
 import com.sregfenterprises.corruptchairman.ui.welcome.WelcomeScreen
-import com.sregfenterprises.corruptchairman.viewmodel.TakeoverViewModel
+import com.sregfenterprises.corruptchairman.ui.takeover.TakeoverViewModel
 
 class MainActivity : ComponentActivity() {
 

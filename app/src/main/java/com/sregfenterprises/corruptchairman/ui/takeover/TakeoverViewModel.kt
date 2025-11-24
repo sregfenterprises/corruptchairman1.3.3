@@ -1,4 +1,4 @@
-package com.sregfenterprises.corruptchairman.viewmodel
+package com.sregfenterprises.corruptchairman.ui.takeover
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -16,7 +16,7 @@ class TakeoverViewModel(application: Application) : AndroidViewModel(application
     private val repo: ClubRepository
 
     init {
-        val dao = ClubDatabase.getDatabase(application).clubDao()
+        val dao = ClubDatabase.Companion.getDatabase(application).clubDao()
         repo = ClubRepository(dao, application)
 
         // Initialize DB if needed
