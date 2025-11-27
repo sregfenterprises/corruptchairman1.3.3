@@ -1,1622 +1,1003 @@
 [
-    {
-        "name": "Cairo Desert Eagles",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Egypt",
-        "population": 9845000,
-        "city": "Cairo",
-        "kitColor": "#FFD700"
-    },
-    {
-        "name": "Alexandria Harbor FC",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Egypt",
-        "population": 5107567,
-        "city": "Alexandria",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Lagos Thunder",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Nigeria",
-        "population": 14370000,
-        "city": "Lagos",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Abuja Lionhearts",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Nigeria",
-        "population": 1235880,
-        "city": "Abuja",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Accra Golden Stars",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Ghana",
-        "population": 2514000,
-        "city": "Accra",
-        "kitColor": "#FFD700"
-    },
-    {
-        "name": "Kumasi Earth Warriors",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Ghana",
-        "population": 3348000,
-        "city": "Kumasi",
-        "kitColor": "#A52A2A"
-    },
-    {
-        "name": "Nairobi Sky Pride",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Kenya",
-        "population": 4397073,
-        "city": "Nairobi",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Mombasa Coastal FC",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Kenya",
-        "population": 1200000,
-        "city": "Mombasa",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Johannesburg Steelstorm",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "South Africa",
-        "population": 5635000,
-        "city": "Johannesburg",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Cape Town Ocean Kings",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "South Africa",
-        "population": 4618000,
-        "city": "Cape Town",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Durban Lightning",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "South Africa",
-        "population": 3120282,
-        "city": "Durban",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Kigali Rising FC",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Rwanda",
-        "population": 1132686,
-        "city": "Kigali",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Tunis Desert Falcons",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Tunisia",
-        "population": 638845,
-        "city": "Tunis",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Casablanca Red Oasis",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Morocco",
-        "population": 3359818,
-        "city": "Casablanca",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Rabat Royal Guard",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Morocco",
-        "population": 577827,
-        "city": "Rabat",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Algiers Unity FC",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Algeria",
-        "population": 3415811,
-        "city": "Algiers",
-        "kitColor": "#FFFFFF"
-    },
-    {
-        "name": "Dakar Atlantic Force",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Senegal",
-        "population": 1146053,
-        "city": "Dakar",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Bamako River Titans",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Mali",
-        "population": 1809106,
-        "city": "Bamako",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Kampala Highland FC",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Uganda",
-        "population": 1680600,
-        "city": "Kampala",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Lusaka Copper Kings",
-        "league": "African Championship League",
-        "continent": "Africa",
-        "country": "Zambia",
-        "population": 1747152,
-        "city": "Lusaka",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Tokyo Rising Suns",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Japan",
-        "population": 13960000,
-        "city": "Tokyo",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Osaka Thunderbirds",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Japan",
-        "population": 2691000,
-        "city": "Osaka",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Yokohama Coastal Phoenix",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Japan",
-        "population": 3725000,
-        "city": "Yokohama",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Seoul Iron Wolves",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "South Korea",
-        "population": 9776000,
-        "city": "Seoul",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Busan Maritime FC",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "South Korea",
-        "population": 3413829,
-        "city": "Busan",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Beijing Northern Dragons",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "China",
-        "population": 21540000,
-        "city": "Beijing",
-        "kitColor": "#FFD700"
-    },
-    {
-        "name": "Guangzhou Tigerstrike",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "China",
-        "population": 15305900,
-        "city": "Guangzhou",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Shanghai Harbor Light",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "China",
-        "population": 26320000,
-        "city": "Shanghai",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Bangkok Royal Lotus",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Thailand",
-        "population": 10539000,
-        "city": "Bangkok",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Hanoi River Warriors",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Vietnam",
-        "population": 8053663,
-        "city": "Hanoi",
-        "kitColor": "#FFD700"
-    },
-    {
-        "name": "Ho Chi Minh City Comets",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Vietnam",
-        "population": 8993082,
-        "city": "Ho Chi Minh City",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Kuala Lumpur Skyforge",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Malaysia",
-        "population": 1790000,
-        "city": "Kuala Lumpur",
-        "kitColor": "#FFFF00"
-    },
-    {
-        "name": "Singapore Oceanic Stars",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Singapore",
-        "population": 5703600,
-        "city": "Singapore",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Jakarta Urban Storm",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Indonesia",
-        "population": 10562088,
-        "city": "Jakarta",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Manila Island Kings",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Philippines",
-        "population": 1780148,
-        "city": "Manila",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "New Delhi Sovereign FC",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "India",
-        "population": 294000,
-        "city": "New Delhi",
-        "kitColor": "#FFA500"
-    },
-    {
-        "name": "Mumbai Coastal Pride",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "India",
-        "population": 12442373,
-        "city": "Mumbai",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Riyadh Sandstorm",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Saudi Arabia",
-        "population": 7676654,
-        "city": "Riyadh",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Jeddah Red Palms",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Saudi Arabia",
-        "population": 3976000,
-        "city": "Jeddah",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Doha Night Falcons",
-        "league": "Asian Elite League",
-        "continent": "Asia",
-        "country": "Qatar",
-        "population": 2382000,
-        "city": "Doha",
-        "kitColor": "#800000"
-    },
-    {
-        "name": "Barcelona Skyhawks",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Spain",
-        "population": 1620000,
-        "city": "Barcelona",
-        "kitColor": "#004D98"
-    },
-    {
-        "name": "Munich Forge FC",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Germany",
-        "population": 1472000,
-        "city": "Munich",
-        "kitColor": "#DC143C"
-    },
-    {
-        "name": "Milan Royal Stars",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Italy",
-        "population": 1352000,
-        "city": "Milan",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Amsterdam Thunder",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Netherlands",
-        "population": 821752,
-        "city": "Amsterdam",
-        "kitColor": "#FFA500"
-    },
-    {
-        "name": "Lisbon Atlantic FC",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Portugal",
-        "population": 504718,
-        "city": "Lisbon",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Dublin Emerald FC",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Ireland",
-        "population": 544107,
-        "city": "Dublin",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Vienna Guardians",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Austria",
-        "population": 1911191,
-        "city": "Vienna",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Zurich Mountain FC",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Switzerland",
-        "population": 434008,
-        "city": "Zurich",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Prague Lionhearts",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Czech Republic",
-        "population": 1335084,
-        "city": "Prague",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Warsaw Steel Wolves",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Poland",
-        "population": 1794166,
-        "city": "Warsaw",
-        "kitColor": "#DC143C"
-    },
-    {
-        "name": "Stockholm Northern Tide",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Sweden",
-        "population": 975551,
-        "city": "Stockholm",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Copenhagen Blue Crown",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Denmark",
-        "population": 638117,
-        "city": "Copenhagen",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Brussels Continental FC",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Belgium",
-        "population": 1212300,
-        "city": "Brussels",
-        "kitColor": "#FFD700"
-    },
-    {
-        "name": "Budapest Iron River",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Hungary",
-        "population": 1752286,
-        "city": "Budapest",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Athens Glory FC",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Greece",
-        "population": 664046,
-        "city": "Athens",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Belgrade Fortress FC",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Serbia",
-        "population": 1397939,
-        "city": "Belgrade",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Sofia Highlanders",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Bulgaria",
-        "population": 1242568,
-        "city": "Sofia",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Bucharest Phoenix",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Romania",
-        "population": 1883425,
-        "city": "Bucharest",
-        "kitColor": "#FFFF00"
-    },
-    {
-        "name": "Helsinki Icefall",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Finland",
-        "population": 658864,
-        "city": "Helsinki",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Oslo Vanguard",
-        "league": "European Premier League A",
-        "continent": "Europe",
-        "country": "Norway",
-        "population": 697010,
-        "city": "Oslo",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Valencia Storm",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Spain",
-        "population": 791413,
-        "city": "Valencia",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Lyon Grand Roar",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "France",
-        "population": 513275,
-        "city": "Lyon",
-        "kitColor": "#D4AF37"
-    },
-    {
-        "name": "Marseille Seafarers",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "France",
-        "population": 861635,
-        "city": "Marseille",
-        "kitColor": "#ADD8E6"
-    },
-    {
-        "name": "Hamburg Iron Fleet",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Germany",
-        "population": 1841179,
-        "city": "Hamburg",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Frankfurt Thunderbolt",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Germany",
-        "population": 753056,
-        "city": "Frankfurt",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Naples Blue Harbor",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Italy",
-        "population": 962003,
-        "city": "Naples",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Turin Riverforge",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Italy",
-        "population": 886837,
-        "city": "Turin",
-        "kitColor": "#A52A2A"
-    },
-    {
-        "name": "Rotterdam Harbor Kings",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Netherlands",
-        "population": 651446,
-        "city": "Rotterdam",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Antwerp Emerald Warriors",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Belgium",
-        "population": 529247,
-        "city": "Antwerp",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Krakow Frost Eagles",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Poland",
-        "population": 779115,
-        "city": "Krakow",
-        "kitColor": "#ADD8E6"
-    },
-    {
-        "name": "Seville Crimson Stars",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Spain",
-        "population": 688711,
-        "city": "Seville",
-        "kitColor": "#DC143C"
-    },
-    {
-        "name": "Bratislava Golden Arrows",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Slovakia",
-        "population": 437726,
-        "city": "Bratislava",
-        "kitColor": "#FFD700"
-    },
-    {
-        "name": "Tallinn Northern Guard",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Estonia",
-        "population": 437619,
-        "city": "Tallinn",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Riga Snow Owls",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Latvia",
-        "population": 632614,
-        "city": "Riga",
-        "kitColor": "#A52A2A"
-    },
-    {
-        "name": "Vilnius Iron Owls",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Lithuania",
-        "population": 544386,
-        "city": "Vilnius",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Ljubljana Alpine Force",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Slovenia",
-        "population": 295504,
-        "city": "Ljubljana",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Zagreb Thunderline",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Croatia",
-        "population": 806341,
-        "city": "Zagreb",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Sarajevo Unity",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Bosnia & Herzegovina",
-        "population": 275524,
-        "city": "Sarajevo",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Porto Seawinds",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Portugal",
-        "population": 214349,
-        "city": "Porto",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Geneva White Lions",
-        "league": "European Premier League B",
-        "continent": "Europe",
-        "country": "Switzerland",
-        "population": 201818,
-        "city": "Geneva",
-        "kitColor": "#FFFFFF"
-    },
-    {
-        "name": "New York Empire FC",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "USA",
-        "population": 8399000,
-        "city": "New York",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Los Angeles Horizon Kings",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "USA",
-        "population": 3990000,
-        "city": "Los Angeles",
-        "kitColor": "#FFD700"
-    },
-    {
-        "name": "Chicago Lakefront FC",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "USA",
-        "population": 2706000,
-        "city": "Chicago",
-        "kitColor": "#87CEEB"
-    },
-    {
-        "name": "Houston Lone Star FC",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "USA",
-        "population": 2320000,
-        "city": "Houston",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Miami Tropical Wave",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "USA",
-        "population": 467963,
-        "city": "Miami",
-        "kitColor": "#00FFFF"
-    },
-    {
-        "name": "Toronto Icewalkers",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Canada",
-        "population": 2732000,
-        "city": "Toronto",
-        "kitColor": "#FFFFFF"
-    },
-    {
-        "name": "Montreal Northern Roar",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Canada",
-        "population": 1780000,
-        "city": "Montreal",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Vancouver Coastal Storm",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Canada",
-        "population": 675218,
-        "city": "Vancouver",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Mexico City Thunderstrike",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Mexico",
-        "population": 9209944,
-        "city": "Mexico City",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Monterrey Steelhawks",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Mexico",
-        "population": 1135512,
-        "city": "Monterrey",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Guadalajara Sky Kings",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Mexico",
-        "population": 1460148,
-        "city": "Guadalajara",
-        "kitColor": "#87CEEB"
-    },
-    {
-        "name": "Kingston Caribbean FC",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Jamaica",
-        "population": 668861,
-        "city": "Kingston",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Port of Spain Warriors",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Trinidad & Tobago",
-        "population": 37074,
-        "city": "Port of Spain",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "San José Volcano FC",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Costa Rica",
-        "population": 333980,
-        "city": "San José",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "San Salvador Republic FC",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "El Salvador",
-        "population": 238359,
-        "city": "San Salvador",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Panama City Navigation FC",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Panama",
-        "population": 880691,
-        "city": "Panama City",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Tegucigalpa Mountain Force",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Honduras",
-        "population": 1157509,
-        "city": "Tegucigalpa",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Guatemala City Forest Eagles",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Guatemala",
-        "population": 994938,
-        "city": "Guatemala City",
-        "kitColor": "#87CEEB"
-    },
-    {
-        "name": "Nassau Island United",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Bahamas",
-        "population": 274400,
-        "city": "Nassau",
-        "kitColor": "#FFFF00"
-    },
-    {
-        "name": "Santo Domingo Mariners",
-        "league": "North American League A",
-        "continent": "North America",
-        "country": "Dominican Republic",
-        "population": 965040,
-        "city": "Santo Domingo",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Philadelphia Liberty FC",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "USA",
-        "population": 1584000,
-        "city": "Philadelphia",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Atlanta Firewolves",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "USA",
-        "population": 498715,
-        "city": "Atlanta",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Seattle Northern Storm",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "USA",
-        "population": 753675,
-        "city": "Seattle",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Denver Mountain Reds",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "USA",
-        "population": 727211,
-        "city": "Denver",
-        "kitColor": "#800000"
-    },
-    {
-        "name": "Detroit Iron Motors",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "USA",
-        "population": 672795,
-        "city": "Detroit",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Ottawa Federal FC",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Canada",
-        "population": 994837,
-        "city": "Ottawa",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Calgary Prairie FC",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Canada",
-        "population": 1336000,
-        "city": "Calgary",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Edmonton Glacier FC",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Canada",
-        "population": 981280,
-        "city": "Edmonton",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Monterrey Desert Eagles",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Mexico",
-        "population": 1135512,
-        "city": "Monterrey",
-        "kitColor": "#D4AF37"
-    },
-    {
-        "name": "Puebla Riverstorm",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Mexico",
-        "population": 1576259,
-        "city": "Puebla",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "León Emerald Pride",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Mexico",
-        "population": 1578626,
-        "city": "León",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Port-au-Prince Sunrise",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Haiti",
-        "population": 987310,
-        "city": "Port-au-Prince",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Havana Revolution FC",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Cuba",
-        "population": 2131480,
-        "city": "Havana",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Managua Timberwolves",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Nicaragua",
-        "population": 1055249,
-        "city": "Managua",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Belize City Coral FC",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Belize",
-        "population": 57169,
-        "city": "Belize City",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Bridgetown Atlantic Royals",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Barbados",
-        "population": 287000,
-        "city": "Bridgetown",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Willemstad Sea Dragons",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Curaçao",
-        "population": 158655,
-        "city": "Willemstad",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "San Juan Coastal Force",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Puerto Rico",
-        "population": 342259,
-        "city": "San Juan",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Hamilton Steel FC",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Bermuda",
-        "population": 64000,
-        "city": "Hamilton",
-        "kitColor": "#A52A2A"
-    },
-    {
-        "name": "Castries Island Hawks",
-        "league": "North American League B",
-        "continent": "North America",
-        "country": "Saint Lucia",
-        "population": 20000,
-        "city": "Castries",
-        "kitColor": "#87CEEB"
-    },
-    {
-        "name": "Sydney Surf FC",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Australia",
-        "population": 5312000,
-        "city": "Sydney",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Melbourne Stormforge",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Australia",
-        "population": 4968000,
-        "city": "Melbourne",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Brisbane Horizon",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Australia",
-        "population": 2514000,
-        "city": "Brisbane",
-        "kitColor": "#800080"
-    },
-    {
-        "name": "Perth Desert Knights",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Australia",
-        "population": 2059000,
-        "city": "Perth",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Adelaide Sunfire FC",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Australia",
-        "population": 1346000,
-        "city": "Adelaide",
-        "kitColor": "#FF4500"
-    },
-    {
-        "name": "Auckland Wave Riders",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "New Zealand",
-        "population": 1657000,
-        "city": "Auckland",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Wellington Sky Giants",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "New Zealand",
-        "population": 212700,
-        "city": "Wellington",
-        "kitColor": "#FFFF00"
-    },
-    {
-        "name": "Christchurch Alpine Eagles",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "New Zealand",
-        "population": 381500,
-        "city": "Christchurch",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Suva Coral Kings",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Fiji",
-        "population": 93970,
-        "city": "Suva",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Nadi Sea Warriors",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Fiji",
-        "population": 42284,
-        "city": "Nadi",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Port Moresby Highland Stars",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Papua New Guinea",
-        "population": 364125,
-        "city": "Port Moresby",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Honiara Island Force",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Solomon Islands",
-        "population": 84520,
-        "city": "Honiara",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Apia Pacific Lions",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Samoa",
-        "population": 37708,
-        "city": "Apia",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Pago Pago Ocean Eagles",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "American Samoa",
-        "population": 11500,
-        "city": "Pago Pago",
-        "kitColor": "#000080"
-    },
-    {
-        "name": "Nouméa Shoreline FC",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "New Caledonia",
-        "population": 99926,
-        "city": "Nouméa",
-        "kitColor": "#0000FF"
-    },
-    {
-        "name": "Papeete Lagoon FC",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Tahiti",
-        "population": 26993,
-        "city": "Papeete",
-        "kitColor": "#FF0000"
-    },
-    {
-        "name": "Port Vila Rainforest FC",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Vanuatu",
-        "population": 44039,
-        "city": "Port Vila",
-        "kitColor": "#008000"
-    },
-    {
-        "name": "Lae Thunderhawks",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Papua New Guinea",
-        "population": 100677,
-        "city": "Lae",
-        "kitColor": "#000000"
-    },
-    {
-        "name": "Funafuti Islanders",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Tuvalu",
-        "population": 6320,
-        "city": "Funafuti",
-        "kitColor": "#87CEEB"
-    },
-    {
-        "name": "Majuro Maritime FC",
-        "league": "Oceanian Pro League",
-        "continent": "Oceania",
-        "country": "Marshall Islands",
-        "population": 28000,
-        "city": "Majuro",
-        "kitColor": "#0000FF"
-    },
   {
-    "name": "Buenos Aires Royal FC",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Argentina",
-    "population": 2891000,
-    "city": "Buenos Aires",
-    "kitColor": "#87CEEB"
-  },
-  {
-    "name": "Córdoba Highland Stars",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Argentina",
-    "population": 1317298,
-    "city": "Córdoba",
-    "kitColor": "#87CEEB"
-  },
-  {
-    "name": "Rosario Riverforge",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Argentina",
-    "population": 948312,
-    "city": "Rosario",
-    "kitColor": "#000080"
-  },
-  {
-    "name": "São Paulo Nightfall",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Brazil",
-    "population": 12180000,
-    "city": "São Paulo",
-    "kitColor": "#000000"
-  },
-  {
-    "name": "Rio de Janeiro Atlantic FC",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Brazil",
-    "population": 6718903,
-    "city": "Rio de Janeiro",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "Belo Horizonte Ironclad",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Brazil",
-    "population": 2512070,
-    "city": "Belo Horizonte",
-    "kitColor": "#FFFFFF"
-  },
-  {
-    "name": "Brasília Sky Warriors",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Brazil",
-    "population": 3015268,
-    "city": "Brasília",
-    "kitColor": "#008000"
-  },
-  {
-    "name": "Santiago Mountain Kings",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Chile",
-    "population": 6158080,
-    "city": "Santiago",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "Valparaíso Coastal Phoenix",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Chile",
-    "population": 296655,
-    "city": "Valparaíso",
-    "kitColor": "#008000"
-  },
-  {
-    "name": "Lima Solar FC",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Peru",
-    "population": 9674755,
-    "city": "Lima",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "Arequipa Volcano FC",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Peru",
-    "population": 1008290,
-    "city": "Arequipa",
-    "kitColor": "#800000"
-  },
-  {
-    "name": "Bogotá Northern Eagles",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Colombia",
-    "population": 7412566,
-    "city": "Bogotá",
-    "kitColor": "#FFFF00"
-  },
-  {
-    "name": "Medellín Iron Pride",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Colombia",
-    "population": 2569007,
-    "city": "Medellín",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "Quito Summit FC",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Ecuador",
-    "population": 2671191,
-    "city": "Quito",
-    "kitColor": "#000080"
-  },
-  {
-    "name": "Guayaquil Harbor Storm",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Ecuador",
-    "population": 2278691,
-    "city": "Guayaquil",
-    "kitColor": "#FFFF00"
-  },
-  {
-    "name": "Montevideo Blue Shore",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Uruguay",
-    "population": 1319108,
-    "city": "Montevideo",
-    "kitColor": "#87CEEB"
-  },
-  {
-    "name": "Asunción Thunderhawks",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Paraguay",
-    "population": 525294,
-    "city": "Asunción",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "La Paz Highland Forge",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Bolivia",
-    "population": 764613,
-    "city": "La Paz",
-    "kitColor": "#0000FF"
-  },
-  {
-    "name": "Sucre Republic FC",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Bolivia",
-    "population": 237480,
-    "city": "Sucre",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "Caracas Eastern Comets",
-    "league": "South American Super League",
-    "continent": "South America",
-    "country": "Venezuela",
-    "population": 1943901,
-    "city": "Caracas",
-    "kitColor": "#800000"
-  },
-  {
-    "name": "London Reds FC",
-    "league": "World Super League",
-    "continent": "Europe",
-    "country": "England",
-    "population": 8982000,
-    "city": "London",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "Paris Eternal",
-    "league": "World Super League",
-    "continent": "Europe",
-    "country": "France",
-    "population": 2141000,
-    "city": "Paris",
-    "kitColor": "#0000FF"
-  },
-  {
-    "name": "Madrid Nova FC",
-    "league": "World Super League",
-    "continent": "Europe",
-    "country": "Spain",
-    "population": 3223000,
-    "city": "Madrid",
-    "kitColor": "#FFFF00"
-  },
-  {
-    "name": "Berlin Iron Union",
-    "league": "World Super League",
+    "name": "Bayern München",
+    "league": "",
     "continent": "Europe",
     "country": "Germany",
-    "population": 3645000,
-    "city": "Berlin",
-    "kitColor": "#000000"
+    "population": 0,
+    "city": "Munich",
+    "kitColor": "#000000",
+    "rankingPoints": 2067
   },
   {
-    "name": "Rome Colosseum FC",
-    "league": "World Super League",
+    "name": "Arsenal",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "London",
+    "kitColor": "#000000",
+    "rankingPoints": 2029
+  },
+  {
+    "name": "Paris Saint-Germain",
+    "league": "",
+    "continent": "Europe",
+    "country": "France",
+    "population": 0,
+    "city": "Paris",
+    "kitColor": "#000000",
+    "rankingPoints": 2021
+  },
+  {
+    "name": "Barcelona",
+    "league": "",
+    "continent": "Europe",
+    "country": "Spain",
+    "population": 0,
+    "city": "Barcelona",
+    "kitColor": "#000000",
+    "rankingPoints": 1960
+  },
+  {
+    "name": "Manchester City",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Manchester",
+    "kitColor": "#000000",
+    "rankingPoints": 1954
+  },
+  {
+    "name": "Real Madrid",
+    "league": "",
+    "continent": "Europe",
+    "country": "Spain",
+    "population": 0,
+    "city": "Madrid",
+    "kitColor": "#000000",
+    "rankingPoints": 1953
+  },
+  {
+    "name": "Chelsea FC",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "London",
+    "kitColor": "#000000",
+    "rankingPoints": 1940
+  },
+  {
+    "name": "Atlético Madrid",
+    "league": "",
+    "continent": "Europe",
+    "country": "Spain",
+    "population": 0,
+    "city": "Madrid",
+    "kitColor": "#000000",
+    "rankingPoints": 1917
+  },
+  {
+    "name": "Inter Milan",
+    "league": "",
     "continent": "Europe",
     "country": "Italy",
-    "population": 2873000,
+    "population": 0,
+    "city": "Milan",
+    "kitColor": "#000000",
+    "rankingPoints": 1916
+  },
+  {
+    "name": "Liverpool FC",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Liverpool",
+    "kitColor": "#000000",
+    "rankingPoints": 1887
+  },
+  {
+    "name": "Borussia Dortmund",
+    "league": "",
+    "continent": "Europe",
+    "country": "Germany",
+    "population": 0,
+    "city": "Dortmund",
+    "kitColor": "#000000",
+    "rankingPoints": 1878
+  },
+  {
+    "name": "Aston Villa",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Birmingham",
+    "kitColor": "#000000",
+    "rankingPoints": 1867
+  },
+  {
+    "name": "PSV Eindhoven",
+    "league": "",
+    "continent": "Europe",
+    "country": "Netherlands",
+    "population": 0,
+    "city": "Eindhoven",
+    "kitColor": "#000000",
+    "rankingPoints": 1849
+  },
+  {
+    "name": "AS Roma",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
     "city": "Rome",
-    "kitColor": "#800080"
+    "kitColor": "#000000",
+    "rankingPoints": 1847
   },
   {
-    "name": "New York Horizon",
-    "league": "World Super League",
-    "continent": "North America",
-    "country": "USA",
-    "population": 8399000,
-    "city": "New York",
-    "kitColor": "#000080"
+    "name": "Bayer Leverkusen",
+    "league": "",
+    "continent": "Europe",
+    "country": "Germany",
+    "population": 0,
+    "city": "Leverkusen",
+    "kitColor": "#000000",
+    "rankingPoints": 1846
   },
   {
-    "name": "Los Angeles Pacific Kings",
-    "league": "World Super League",
-    "continent": "North America",
-    "country": "USA",
-    "population": 3990000,
-    "city": "Los Angeles",
-    "kitColor": "#FFD700"
+    "name": "Crystal Palace",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "London",
+    "kitColor": "#000000",
+    "rankingPoints": 1840
   },
   {
-    "name": "Mexico City Jaguars",
-    "league": "World Super League",
-    "continent": "North America",
-    "country": "Mexico",
-    "population": 9209944,
-    "city": "Mexico City",
-    "kitColor": "#008000"
+    "name": "AC Milan",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Milan",
+    "kitColor": "#000000",
+    "rankingPoints": 1838
   },
   {
-    "name": "Buenos Aires Thunder",
-    "league": "World Super League",
-    "continent": "South America",
-    "country": "Argentina",
-    "population": 2891000,
-    "city": "Buenos Aires",
-    "kitColor": "#87CEEB"
+    "name": "Sporting (Portugal)",
+    "league": "",
+    "continent": "Europe",
+    "country": "Portugal",
+    "population": 0,
+    "city": "Lisbon",
+    "kitColor": "#000000",
+    "rankingPoints": 1829
   },
   {
-    "name": "São Paulo Cosmos",
-    "league": "World Super League",
+    "name": "SSC Napoli",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Naples",
+    "kitColor": "#000000",
+    "rankingPoints": 1825
+  },
+  {
+    "name": "Villarreal",
+    "league": "",
+    "continent": "Europe",
+    "country": "Spain",
+    "population": 0,
+    "city": "Villarreal",
+    "kitColor": "#000000",
+    "rankingPoints": 1820
+  },
+  {
+    "name": "Flamengo",
+    "league": "",
     "continent": "South America",
     "country": "Brazil",
-    "population": 12180000,
-    "city": "São Paulo",
-    "kitColor": "#FFFF00"
+    "population": 0,
+    "city": "Rio de Janeiro",
+    "kitColor": "#000000",
+    "rankingPoints": 1814
   },
   {
-    "name": "Tokyo Orion FC",
-    "league": "World Super League",
-    "continent": "Asia",
-    "country": "Japan",
-    "population": 13960000,
-    "city": "Tokyo",
-    "kitColor": "#FF0000"
+    "name": "Newcastle United",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Newcastle upon Tyne",
+    "kitColor": "#000000",
+    "rankingPoints": 1810
   },
   {
-    "name": "Seoul Titans",
-    "league": "World Super League",
-    "continent": "Asia",
-    "country": "South Korea",
-    "population": 9776000,
-    "city": "Seoul",
-    "kitColor": "#00008B"
+    "name": "Brighton & Hove Albion",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Brighton",
+    "kitColor": "#000000",
+    "rankingPoints": 1806
   },
   {
-    "name": "Shanghai Dragonstorm",
-    "league": "World Super League",
-    "continent": "Asia",
-    "country": "China",
-    "population": 26320000,
-    "city": "Shanghai",
-    "kitColor": "#FFD700"
-  },
-  {
-    "name": "Johannesburg Pride FC",
-    "league": "World Super League",
-    "continent": "Africa",
-    "country": "South Africa",
-    "population": 5635000,
-    "city": "Johannesburg",
-    "kitColor": "#008000"
-  },
-  {
-    "name": "Lagos Unity FC",
-    "league": "World Super League",
-    "continent": "Africa",
-    "country": "Nigeria",
-    "population": 14370000,
-    "city": "Lagos",
-    "kitColor": "#008000"
-  },
-  {
-    "name": "Cairo Royal Falcons",
-    "league": "World Super League",
-    "continent": "Africa",
-    "country": "Egypt",
-    "population": 9845000,
-    "city": "Cairo",
-    "kitColor": "#FFD700"
-  },
-  {
-    "name": "Sydney Coastal Wave",
-    "league": "World Super League",
-    "continent": "Oceania",
-    "country": "Australia",
-    "population": 5312000,
-    "city": "Sydney",
-    "kitColor": "#000080"
-  },
-  {
-    "name": "Melbourne Starforge",
-    "league": "World Super League",
-    "continent": "Oceania",
-    "country": "Australia",
-    "population": 4968000,
-    "city": "Melbourne",
-    "kitColor": "#000000"
-  },
-  {
-    "name": "Toronto Northern Lights",
-    "league": "World Super League",
-    "continent": "North America",
-    "country": "Canada",
-    "population": 2732000,
-    "city": "Toronto",
-    "kitColor": "#FF0000"
-  },
-  {
-    "name": "Istanbul Continental FC",
-    "league": "World Super League",
+    "name": "Galatasaray",
+    "league": "",
     "continent": "Europe/Asia",
-    "country": "Türkiye",
-    "population": 15520000,
+    "country": "Turkey",
+    "population": 0,
     "city": "Istanbul",
-    "kitColor": "#FF0000"
-  }
-]
+    "kitColor": "#000000",
+    "rankingPoints": 1801
+  },
+  {
+    "name": "Bologna",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Bologna",
+    "kitColor": "#000000",
+    "rankingPoints": 1786
+  },
+  {
+    "name": "Palmeiras",
+    "league": "",
+    "continent": "South America",
+    "country": "Brazil",
+    "population": 0,
+    "city": "São Paulo",
+    "kitColor": "#000000",
+    "rankingPoints": 1783
+  },
+  {
+    "name": "RB Leipzig",
+    "league": "",
+    "continent": "Europe",
+    "country": "Germany",
+    "population": 0,
+    "city": "Leipzig",
+    "kitColor": "#000000",
+    "rankingPoints": 1779
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "London",
+    "kitColor": "#000000",
+    "rankingPoints": 1769
+  },
+  {
+    "name": "FC Porto",
+    "league": "",
+    "continent": "Europe",
+    "country": "Portugal",
+    "population": 0,
+    "city": "Porto",
+    "kitColor": "#000000",
+    "rankingPoints": 1767
+  },
+  {
+    "name": "Juventus",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Turin",
+    "kitColor": "#000000",
+    "rankingPoints": 1767
+  },
+  {
+    "name": "Eintracht Frankfurt",
+    "league": "",
+    "continent": "Europe",
+    "country": "Germany",
+    "population": 0,
+    "city": "Frankfurt",
+    "kitColor": "#000000",
+    "rankingPoints": 1764
+  },
+  {
+    "name": "Manchester United",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Manchester",
+    "kitColor": "#000000",
+    "rankingPoints": 1763
+  },
+  {
+    "name": "AFC Bournemouth",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Bournemouth",
+    "kitColor": "#000000",
+    "rankingPoints": 1762
+  },
+  {
+    "name": "Brentford FC",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "London",
+    "kitColor": "#000000",
+    "rankingPoints": 1758
+  },
+  {
+    "name": "Benfica",
+    "league": "",
+    "continent": "Europe",
+    "country": "Portugal",
+    "population": 0,
+    "city": "Lisbon",
+    "kitColor": "#000000",
+    "rankingPoints": 1755
+  },
+  {
+    "name": "Real Betis",
+    "league": "",
+    "continent": "Europe",
+    "country": "Spain",
+    "population": 0,
+    "city": "Seville",
+    "kitColor": "#000000",
+    "rankingPoints": 1753
+  },
+  {
+    "name": "Marseille",
+    "league": "",
+    "continent": "Europe",
+    "country": "France",
+    "population": 0,
+    "city": "Marseille",
+    "kitColor": "#000000",
+    "rankingPoints": 1752
+  },
+  {
+    "name": "Lazio",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Rome",
+    "kitColor": "#000000",
+    "rankingPoints": 1745
+  },
+  {
+    "name": "Atalanta",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Bergamo",
+    "kitColor": "#000000",
+    "rankingPoints": 1743
+  },
+  {
+    "name": "Club Brugge",
+    "league": "",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Bruges",
+    "kitColor": "#000000",
+    "rankingPoints": 1743
+  },
+  {
+    "name": "Al Hilal",
+    "league": "",
+    "continent": "Asia",
+    "country": "Saudi Arabia",
+    "population": 0,
+    "city": "Riyadh",
+    "kitColor": "#000000",
+    "rankingPoints": 1741
+  },
+  {
+    "name": "VfB Stuttgart",
+    "league": "",
+    "continent": "Europe",
+    "country": "Germany",
+    "population": 0,
+    "city": "Stuttgart",
+    "kitColor": "#000000",
+    "rankingPoints": 1741
+  },
+  {
+    "name": "Fenerbahçe",
+    "league": "",
+    "continent": "Europe/Asia",
+    "country": "Turkey",
+    "population": 0,
+    "city": "Istanbul",
+    "kitColor": "#000000",
+    "rankingPoints": 1740
+  },
+  {
+    "name": "Olympiakos",
+    "league": "",
+    "continent": "Europe",
+    "country": "Greece",
+    "population": 0,
+    "city": "Piraeus",
+    "kitColor": "#000000",
+    "rankingPoints": 1735
+  },
+  {
+    "name": "Slavia Prague",
+    "league": "",
+    "continent": "Europe",
+    "country": "Czech Republic",
+    "population": 0,
+    "city": "Prague",
+    "kitColor": "#000000",
+    "rankingPoints": 1734
+  },
+  {
+    "name": "Everton FC",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Liverpool",
+    "kitColor": "#000000",
+    "rankingPoints": 1723
+  },
+  {
+    "name": "Lille",
+    "league": "",
+    "continent": "Europe",
+    "country": "France",
+    "population": 0,
+    "city": "Lille",
+    "kitColor": "#000000",
+    "rankingPoints": 1718
+  },
+  {
+    "name": "LDU de Quito",
+    "league": "",
+    "continent": "South America",
+    "country": "Ecuador",
+    "population": 0,
+    "city": "Quito",
+    "kitColor": "#000000",
+    "rankingPoints": 1715
+  },
+  {
+    "name": "Nottingham Forest",
+    "league": "",
+    "continent": "Europe",
+    "country": "England",
+    "population": 0,
+    "city": "Nottingham",
+    "kitColor": "#000000",
+    "rankingPoints": 1712
+  },
+  {
+    "name": "Como 1907",
+    "league": "",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Como",
+    "kitColor": "#000000",
+    "rankingPoints": 1712
+  },
+  {
+    "name": "Cruzeiro",
+      "league": "",
+      "continent": "South America",
+      "country": "Brazil",
+      "population": 0,
+      "city": "Belo Horizonte",
+      "kitColor": "#000000",
+      "rankingPoints": 1710
+    },
+    {
+      "name": "Union St. Gilloise",
+      "league": "",
+      "continent": "Europe",
+      "country": "Belgium",
+      "population": 0,
+      "city": "Brussels",
+      "kitColor": "#000000",
+      "rankingPoints": 1710
+    },
+    {
+      "name": "Feyenoord",
+      "league": "",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "population": 0,
+      "city": "Rotterdam",
+      "kitColor": "#000000",
+      "rankingPoints": 1710
+    },
+    {
+      "name": "Lens",
+      "league": "",
+      "continent": "Europe",
+      "country": "France",
+      "population": 0,
+      "city": "Lens",
+      "kitColor": "#000000",
+      "rankingPoints": 1706
+    },
+    {
+      "name": "Racing Club",
+      "league": "",
+      "continent": "South America",
+      "country": "Argentina",
+      "population": 0,
+      "city": "Avellaneda",
+      "kitColor": "#000000",
+      "rankingPoints": 1704
+    },
+    {
+      "name": "Celta Vigo",
+      "league": "",
+      "continent": "Europe",
+      "country": "Spain",
+      "population": 0,
+      "city": "Vigo",
+      "kitColor": "#000000",
+      "rankingPoints": 1702
+    },
+    {
+      "name": "Lyon",
+      "league": "",
+      "continent": "Europe",
+      "country": "France",
+      "population": 0,
+      "city": "Lyon",
+      "kitColor": "#000000",
+      "rankingPoints": 1702
+    },
+    {
+      "name": "FK Red Star Belgrade",
+      "league": "",
+      "continent": "Europe",
+      "country": "Serbia",
+      "population": 0,
+      "city": "Belgrade",
+      "kitColor": "#000000",
+      "rankingPoints": 1696
+    },
+    {
+      "name": "Pyramids FC",
+      "league": "",
+      "continent": "Africa",
+      "country": "Egypt",
+      "population": 0,
+      "city": "Cairo",
+      "kitColor": "#000000",
+      "rankingPoints": 1690
+    },
+    {
+      "name": "Toluca FC",
+      "league": "",
+      "continent": "North America",
+      "country": "Mexico",
+      "population": 0,
+      "city": "Toluca",
+      "kitColor": "#000000",
+      "rankingPoints": 1686
+    },
+    {
+      "name": "Freiburg",
+      "league": "",
+      "continent": "Europe",
+      "country": "Germany",
+      "population": 0,
+      "city": "Freiburg",
+      "kitColor": "#000000",
+      "rankingPoints": 1685
+    },
+    {
+      "name": "Zenit St. Petersburg",
+      "league": "",
+      "continent": "Europe",
+      "country": "Russia",
+      "population": 0,
+      "city": "St. Petersburg",
+      "kitColor": "#000000",
+      "rankingPoints": 1685
+    },
+    {
+      "name": "Botafogo FR",
+      "league": "",
+      "continent": "South America",
+      "country": "Brazil",
+      "population": 0,
+      "city": "Rio de Janeiro",
+      "kitColor": "#000000",
+      "rankingPoints": 1684
+    },
+    {
+      "name": "Fluminense FC",
+      "league": "",
+      "continent": "South America",
+      "country": "Brazil",
+      "population": 0,
+      "city": "Rio de Janeiro",
+      "kitColor": "#000000",
+      "rankingPoints": 1684
+    },
+    {
+      "name": "Boca Juniors",
+      "league": "",
+      "continent": "South America",
+      "country": "Argentina",
+      "population": 0,
+      "city": "Buenos Aires",
+      "kitColor": "#000000",
+      "rankingPoints": 1684
+    },
+    {
+      "name": "Fulham",
+      "league": "",
+      "continent": "Europe",
+      "country": "England",
+      "population": 0,
+      "city": "London",
+      "kitColor": "#000000",
+      "rankingPoints": 1683
+    },
+    {
+      "name": "The New Saints",
+      "league": "",
+      "continent": "Europe",
+      "country": "Wales",
+      "population": 0,
+      "city": "Oswestry",
+      "kitColor": "#000000",
+      "rankingPoints": 1682
+    },
+    {
+      "name": "Cruz Azul",
+      "league": "",
+      "continent": "North America",
+      "country": "Mexico",
+      "population": 0,
+      "city": "Mexico City",
+      "kitColor": "#000000",
+      "rankingPoints": 1681
+    },
+    {
+      "name": "Rayo Vallecano",
+      "league": "",
+      "continent": "Europe",
+      "country": "Spain",
+      "population": 0,
+      "city": "Madrid",
+      "kitColor": "#000000",
+      "rankingPoints": 1679
+    },
+    {
+      "name": "Hoffenheim",
+      "league": "",
+      "continent": "Europe",
+      "country": "Germany",
+      "population": 0,
+      "city": "Sinsheim",
+      "kitColor": "#000000",
+      "rankingPoints": 1677
+    },
+    {
+      "name": "Flora Tallinn",
+      "league": "",
+      "continent": "Europe",
+      "country": "Estonia",
+      "population": 0,
+      "city": "Tallinn",
+      "kitColor": "#000000",
+      "rankingPoints": 1677
+    },
+    {
+      "name": "Athletic Bilbao",
+      "league": "",
+      "continent": "Europe",
+      "country": "Spain",
+      "population": 0,
+      "city": "Bilbao",
+      "kitColor": "#000000",
+      "rankingPoints": 1675
+    },
+    {
+      "name": "RC Strasbourg",
+      "league": "",
+      "continent": "Europe",
+      "country": "France",
+      "population": 0,
+      "city": "Strasbourg",
+      "kitColor": "#000000",
+      "rankingPoints": 1673
+    },
+    {
+      "name": "Al Ahly",
+      "league": "",
+      "continent": "Africa",
+      "country": "Egypt",
+      "population": 0,
+      "city": "Cairo",
+      "kitColor": "#000000",
+      "rankingPoints": 1672
+    },
+    {
+      "name": "Braga",
+      "league": "",
+      "continent": "Europe",
+      "country": "Portugal",
+      "population": 0,
+      "city": "Braga",
+      "kitColor": "#000000",
+      "rankingPoints": 1671
+    },
+    {
+      "name": "Werder Bremen",
+      "league": "",
+      "continent": "Europe",
+      "country": "Germany",
+      "population": 0,
+      "city": "Bremen",
+      "kitColor": "#000000",
+      "rankingPoints": 1671
+    },
+    {
+      "name": "Celtic",
+      "league": "",
+      "continent": "Europe",
+      "country": "Scotland",
+      "population": 0,
+      "city": "Glasgow",
+      "kitColor": "#000000",
+      "rankingPoints": 1668
+    },
+    {
+      "name": "Mirassol Futebol Clube",
+      "league": "",
+      "continent": "South America",
+      "country": "Brazil",
+      "population": 0,
+      "city": "Mirassol",
+      "kitColor": "#000000",
+      "rankingPoints": 1662
+    },
+    {
+      "name": "América",
+      "league": "",
+      "continent": "North America",
+      "country": "Mexico",
+      "population": 0,
+      "city": "Mexico City",
+      "kitColor": "#000000",
+      "rankingPoints": 1661
+    },
+    {
+      "name": "FCI Levadia Tallinn",
+      "league": "",
+      "continent": "Europe",
+      "country": "Estonia",
+      "population": 0,
+      "city": "Tallinn",
+      "kitColor": "#000000",
+      "rankingPoints": 1657
+    },
+    {
+      "name": "Al Nassr",
+      "league": "",
+      "continent": "Asia",
+      "country": "Saudi Arabia",
+      "population": 0,
+      "city": "Riyadh",
+      "kitColor": "#000000",
+      "rankingPoints": 1657
+    },
+    {
+      "name": "Shakhtar Donetsk",
+      "league": "",
+      "continent": "Europe",
+      "country": "Ukraine",
+      "population": 0,
+      "city": "Donetsk",
+      "kitColor": "#000000",
+      "rankingPoints": 1657
+    },
+    {
+      "name": "PAOK FC",
+      "league": "",
+      "continent": "Europe",
+      "country": "Greece",
+      "population": 0,
+      "city": "Thessaloniki",
+      "kitColor": "#000000",
+      "rankingPoints": 1656
+    },
+    {
+      "name": "AS Monaco",
+      "league": "",
+      "continent": "Europe",
+      "country": "France",
+      "population": 0,
+      "city": "Monaco",
+      "kitColor": "#000000",
+      "rankingPoints": 1655
+    },
+    {
+      "name": "Peñarol",
+      "league": "",
+      "continent": "South America",
+      "country": "Uruguay",
+      "population": 0,
+      "city": "Montevideo",
+      "kitColor": "#000000",
+      "rankingPoints": 1655
+    },
+    {
+      "name": "Torino",
+      "league": "",
+      "continent": "Europe",
+      "country": "Italy",
+      "population": 0,
+      "city": "Turin",
+      "kitColor": "#000000",
+      "rankingPoints": 1651
+    },
+    {
+      "name": "Fiorentina",
+      "league": "",
+      "continent": "Europe",
+      "country": "Italy",
+      "population": 0,
+      "city": "Florence",
+      "kitColor": "#000000",
+      "rankingPoints": 1648
+    },
+    {
+      "name": "Dinamo Zagreb",
+      "league": "",
+      "continent": "Europe",
+      "country": "Croatia",
+      "population": 0,
+      "city": "Zagreb",
+      "kitColor": "#000000",
+      "rankingPoints": 1647
+    },
+    {
+      "name": "Real Sociedad",
+      "league": "",
+      "continent": "Europe",
+      "country": "Spain",
+      "population": 0,
+      "city": "San Sebastián",
+      "kitColor": "#000000",
+      "rankingPoints": 1646
+    },
+    {
+      "name": "Mamelodi Sundowns FC",
+      "league": "",
+      "continent": "Africa",
+      "country": "South Africa",
+      "population": 0,
+      "city": "Pretoria",
+      "kitColor": "#000000",
+      "rankingPoints": 1643
+    },
+    {
+      "name": "Pafos FC",
+      "league": "",
+      "continent": "Europe",
+      "country": "Cyprus",
+      "population": 0,
+      "city": "Paphos",
+      "kitColor": "#000000",
+      "rankingPoints": 1642
+    },
+    {
+      "name": "Viktoria Plzeň",
+      "league": "",
+      "continent": "Europe",
+      "country": "Czech Republic",
+      "population": 0,
+      "city": "Plzeň",
+      "kitColor": "#000000",
+      "rankingPoints": 1640
+    },
+    {
+      "name": "AZ Alkmaar",
+      "league": "",
+      "continent": "Europe",
+      "country": "Netherlands",
+      "population": 0,
+      "city": "Alkmaar",
+      "kitColor": "#000000",
+      "rankingPoints": 1638
+    },
+    {
+      "name": "Rosario Central",
+      "league": "",
+      "continent": "South America",
+      "country": "Argentina",
+      "population": 0,
+      "city": "Rosario",
+      "kitColor": "#000000",
+      "rankingPoints": 1638
+    },
+    {
+      "name": "Valencia",
+      "league": "",
+      "continent": "Europe",
+      "country": "Spain",
+      "population": 0,
+      "city": "Valencia",
+      "kitColor": "#000000",
+      "rankingPoints": 1637
+    },
+    {
+      "name": "Rennes",
+      "league": "",
+      "continent": "Europe",
+      "country": "France",
+      "population": 0,
+      "city": "Rennes",
+      "kitColor": "#000000",
+      "rankingPoints": 1635
+    },
+    {
+      "name": "RCD Espanyol",
+      "league": "",
+      "continent": "Europe",
+      "country": "Spain",
+      "population": 0,
+      "city": "Barcelona",
+      "kitColor": "#000000",
+      "rankingPoints": 1635
+    },
+    {
+      "name": "Independiente",
+      "league": "",
+      "continent": "South America",
+      "country": "Ecuador",
+      "population": 0,
+      "city": "Quito",
+      "kitColor": "#000000",
+      "rankingPoints": 1633
+    },
+    {
+      "name": "Corinthians",
+      "league": "",
+      "continent": "South America",
+      "country": "Brazil",
+      "population": 0,
+      "city": "São Paulo",
+      "kitColor": "#000000",
+      "rankingPoints": 1632
+    },
+    {
+      "name": "FC Midtjylland",
+      "league": "",
+      "continent": "Europe",
+      "country": "Denmark",
+      "population": 0,
+      "city": "Herning",
+      "kitColor": "#000000",
+      "rankingPoints": 1630
+    }
+  ]
+

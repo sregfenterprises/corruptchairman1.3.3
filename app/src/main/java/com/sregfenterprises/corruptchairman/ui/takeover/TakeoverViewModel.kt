@@ -10,6 +10,12 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
+import com.sregfenterprises.corruptchairman.model.LeagueGenerator
+import android.util.Log
+
+
+
+
 
 class TakeoverViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -62,6 +68,8 @@ class TakeoverViewModel(application: Application) : AndroidViewModel(application
         viewModelScope.launch {
             repo.getClubsByCountry(country).collectLatest { list ->
                 _clubs.value = list
+
+
             }
         }
     }

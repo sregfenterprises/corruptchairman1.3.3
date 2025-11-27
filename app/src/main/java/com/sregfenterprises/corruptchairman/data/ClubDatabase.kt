@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.sregfenterprises.corruptchairman.model.Club
 
-@Database(entities = [Club::class], version = 1, exportSchema = false)
+@Database(entities = [Club::class], version = 2, exportSchema = false)
 abstract class ClubDatabase : RoomDatabase() {
 
     abstract fun clubDao(): ClubDao

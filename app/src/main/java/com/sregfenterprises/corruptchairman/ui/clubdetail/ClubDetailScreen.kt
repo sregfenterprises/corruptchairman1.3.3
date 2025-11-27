@@ -32,6 +32,7 @@ fun ClubDetailScreen(
 
         Text("League: ${club.league}")
         Text("Country: ${club.country}")
+        Text("Ranking Points: ${club.rankingPoints}")
         Text("Continent: ${club.continent}")
         Text("City: ${club.city}")
         Text("Population: ${club.population}")

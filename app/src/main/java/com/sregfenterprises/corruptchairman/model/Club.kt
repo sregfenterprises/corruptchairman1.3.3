@@ -12,5 +12,6 @@ data class Club(
     val continent: String = "",
     val city: String = "",
     val population: Int = 0,
+    val rankingPoints: Int = 0,
     val kitColor: String = "gray"
 )
