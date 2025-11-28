@@ -1,6 +1,7 @@
 package com.sregfenterprises.corruptchairman
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -17,11 +18,13 @@ import com.sregfenterprises.corruptchairman.ui.mainscreen.MainScreen
 import com.sregfenterprises.corruptchairman.ui.takeover.TakeoverTeamScreen
 import com.sregfenterprises.corruptchairman.ui.theme.CorruptChairmanTheme
 import com.sregfenterprises.corruptchairman.ui.welcome.WelcomeScreen
-import com.sregfenterprises.corruptchairman.ui.takeover.TakeoverViewModel
+import com.sregfenterprises.corruptchairman.viewmodel.LeagueViewModel
+import com.sregfenterprises.corruptchairman.viewmodel.TakeoverViewModel
 
 class MainActivity : ComponentActivity() {
 
     private val takeoverViewModel: TakeoverViewModel by viewModels()
+    private val leagueViewModel: LeagueViewModel by viewModels() // <-- LeagueViewModel instance
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,6 +40,20 @@ class MainActivity : ComponentActivity() {
                 var currentScreen by remember { mutableStateOf("welcome") }
                 var userHasProfile by remember { mutableStateOf(UserProfileManager.hasProfile()) }
                 var selectedClub by remember { mutableStateOf<Club?>(null) }
+
+                // Observe leagues StateFlow to trigger generator and log results
+                LaunchedEffect(leagueViewModel) {
+                    leagueViewModel.leagues.collect { leagues ->
+                        if (leagues.isNotEmpty()) {
+                            Log.d(
+                                "MAIN_ACTIVITY",
+                                "League Generator ran: ${leagues.size} leagues created. First league: ${leagues.first().name}"
+                            )
+                        } else {
+                            Log.d("MAIN_ACTIVITY", "League Generator has not yet produced leagues")
+                        }
+                    }
+                }
 
                 // Auto-jump to MainScreen if takeover already happened
                 LaunchedEffect(Unit) {
@@ -85,7 +102,7 @@ class MainActivity : ComponentActivity() {
                         }
                     )
 
-                    // 4️⃣ Takeover Team Selection (single-screen flow)
+                    // 4️⃣ Takeover Team Selection
                     "takeover" -> {
                         TakeoverTeamScreen(
                             viewModel = takeoverViewModel,

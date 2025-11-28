@@ -47,26 +47,47 @@ class ClubRepository(
     }
 
     /**
-     * Get reactive list of continents
+     * Reactive list of continents
      */
     fun getContinents(): Flow<List<String>> {
-        return dao.getContinents()
-            .flowOn(Dispatchers.IO)
+        return dao.getContinents().flowOn(Dispatchers.IO)
     }
 
     /**
-     * Get reactive list of countries for a continent
+     * Reactive list of countries for a continent
      */
     fun getCountriesByContinent(continent: String): Flow<List<String>> {
-        return dao.getCountriesByContinent(continent)
-            .flowOn(Dispatchers.IO)
+        return dao.getCountriesByContinent(continent).flowOn(Dispatchers.IO)
     }
 
     /**
-     * Get reactive list of clubs for a country
+     * Reactive list of clubs for a country
      */
     fun getClubsByCountry(country: String): Flow<List<Club>> {
-        return dao.getClubsByCountry(country)
-            .flowOn(Dispatchers.IO)
+        return dao.getClubsByCountry(country).flowOn(Dispatchers.IO)
+    }
+
+    /**
+     * Get all clubs (needed for league generation)
+     */
+    fun getAllClubs(): Flow<List<Club>> {
+        return dao.getAllClubs().flowOn(Dispatchers.IO)
+    }
+
+    /**
+     * Assign a league to a list of clubs and persist in the database
+     */
+    suspend fun assignLeagueToClubs(clubs: List<Club>, leagueName: String) {
+        Log.d(TAG, "Assigning league '$leagueName' to ${clubs.size} clubs")
+        clubs.forEach { it.league = leagueName }
+        dao.insertClubs(clubs) // Upsert with REPLACE strategy
+        Log.d(TAG, "League '$leagueName' assigned to clubs and persisted")
+    }
+
+    /**
+     * Optional: get all clubs in a specific league
+     */
+    fun getClubsByLeague(leagueName: String): Flow<List<Club>> {
+        return dao.getClubsByLeague(leagueName).flowOn(Dispatchers.IO)
     }
 }

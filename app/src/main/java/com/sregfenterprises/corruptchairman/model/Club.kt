@@ -7,7 +7,7 @@ import androidx.room.PrimaryKey
 data class Club(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
     val name: String = "",
-    val league: String = "",
+    var league: String = "",
     val country: String = "",
     val continent: String = "",
     val city: String = "",

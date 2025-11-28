@@ -1,4 +1,4 @@
-package com.sregfenterprises.corruptchairman.ui.takeover
+package com.sregfenterprises.corruptchairman.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -10,12 +10,6 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import com.sregfenterprises.corruptchairman.model.LeagueGenerator
-import android.util.Log
-
-
-
-
 
 class TakeoverViewModel(application: Application) : AndroidViewModel(application) {
 
