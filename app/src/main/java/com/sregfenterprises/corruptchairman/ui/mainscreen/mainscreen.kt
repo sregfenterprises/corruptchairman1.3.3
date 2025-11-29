@@ -16,7 +16,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.sregfenterprises.corruptchairman.model.Club
-import com.sregfenterprises.corruptchairman.viewmodel.LeagueViewModel
+import com.sregfenterprises.corruptchairman.data.ClubRepository
 import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.leaguetables.LeagueSelectionScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.leaguetables.LeagueTableScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.chairmanactivities.ChairmanActivitiesScreen
@@ -26,7 +26,7 @@ import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.clubact
 @Composable
 fun MainScreen(
     modifier: Modifier = Modifier,
-    leagueViewModel: LeagueViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
+    clubRepository: ClubRepository    // ✅ Only this now
 ) {
     val navController = rememberNavController()
 
@@ -63,28 +63,28 @@ fun MainScreen(
         composable("clubActivities") {
             clubactivitiesscreen(
                 onBack = { navController.popBackStack() },
-                onProfileClicked = { /* TODO */ },
-                onLeagueTables = { navController.navigate("league_selection") }  // NEW
+                onProfileClicked = { },
+                onLeagueTables = { navController.navigate("league_selection") }
             )
         }
 
-        // ⭐ NEW ROUTE: SELECT LEAGUE (World or Europe)
+        // SELECT LEAGUE
         composable("league_selection") {
             LeagueSelectionScreen(
+                clubRepository = clubRepository,    // ✅ FIXED
                 onLeagueSelected = { leagueName ->
                     navController.navigate("league_table/$leagueName")
                 },
-                onBack = { navController.popBackStack() },
-                leagueViewModel = leagueViewModel
+                onBack = { navController.popBackStack() }
             )
         }
 
-        // ⭐ NEW ROUTE: DISPLAY LEAGUE TABLE
+        // LEAGUE TABLE
         composable("league_table/{leagueName}") { backStackEntry ->
             val leagueName = backStackEntry.arguments?.getString("leagueName") ?: ""
             LeagueTableScreen(
                 leagueName = leagueName,
-                leagueViewModel = leagueViewModel,
+                clubRepository = clubRepository,    // ✅ FIXED
                 onBack = { navController.popBackStack() }
             )
         }
@@ -130,17 +130,20 @@ private fun MainHomeContent(
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            // Buttons
             Button(
                 onClick = onChairmanActivities,
-                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 8.dp)
             ) {
                 Text("Chairman Activities")
             }
 
             Button(
                 onClick = onClubActivities,
-                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 8.dp)
             ) {
                 Text("Club Activities")
             }

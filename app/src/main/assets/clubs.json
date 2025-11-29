@@ -1,7 +1,7 @@
 [
   {
     "name": "Bayern München",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Germany",
     "population": 0,
@@ -11,7 +11,7 @@
   },
   {
     "name": "Arsenal",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -21,7 +21,7 @@
   },
   {
     "name": "Paris Saint-Germain",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "France",
     "population": 0,
@@ -31,7 +31,7 @@
   },
   {
     "name": "Barcelona",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Spain",
     "population": 0,
@@ -41,7 +41,7 @@
   },
   {
     "name": "Manchester City",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -51,7 +51,7 @@
   },
   {
     "name": "Real Madrid",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Spain",
     "population": 0,
@@ -61,7 +61,7 @@
   },
   {
     "name": "Chelsea FC",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -71,7 +71,7 @@
   },
   {
     "name": "Atlético Madrid",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Spain",
     "population": 0,
@@ -81,7 +81,7 @@
   },
   {
     "name": "Inter Milan",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -91,7 +91,7 @@
   },
   {
     "name": "Liverpool FC",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -101,7 +101,7 @@
   },
   {
     "name": "Borussia Dortmund",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Germany",
     "population": 0,
@@ -111,7 +111,7 @@
   },
   {
     "name": "Aston Villa",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -121,7 +121,7 @@
   },
   {
     "name": "PSV Eindhoven",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Netherlands",
     "population": 0,
@@ -131,7 +131,7 @@
   },
   {
     "name": "AS Roma",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -141,7 +141,7 @@
   },
   {
     "name": "Bayer Leverkusen",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Germany",
     "population": 0,
@@ -151,7 +151,7 @@
   },
   {
     "name": "Crystal Palace",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -161,7 +161,7 @@
   },
   {
     "name": "AC Milan",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -171,7 +171,7 @@
   },
   {
     "name": "Sporting (Portugal)",
-    "league": "",
+    "league": "World Super League",
     "continent": "Europe",
     "country": "Portugal",
     "population": 0,
@@ -181,7 +181,7 @@
   },
   {
     "name": "SSC Napoli",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -191,7 +191,7 @@
   },
   {
     "name": "Villarreal",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Spain",
     "population": 0,
@@ -201,7 +201,7 @@
   },
   {
     "name": "Flamengo",
-    "league": "",
+    "league": "CONMEBOL Super League",
     "continent": "South America",
     "country": "Brazil",
     "population": 0,
@@ -211,7 +211,7 @@
   },
   {
     "name": "Newcastle United",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -221,7 +221,7 @@
   },
   {
     "name": "Brighton & Hove Albion",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -231,8 +231,8 @@
   },
   {
     "name": "Galatasaray",
-    "league": "",
-    "continent": "Europe/Asia",
+    "league": "European Super League",
+    "continent": "Europe",
     "country": "Turkey",
     "population": 0,
     "city": "Istanbul",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Bologna",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -251,7 +251,7 @@
   },
   {
     "name": "Palmeiras",
-    "league": "",
+    "league": "CONMEBOL Super League",
     "continent": "South America",
     "country": "Brazil",
     "population": 0,
@@ -261,7 +261,7 @@
   },
   {
     "name": "RB Leipzig",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Germany",
     "population": 0,
@@ -271,7 +271,7 @@
   },
   {
     "name": "Tottenham Hotspur",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -281,7 +281,7 @@
   },
   {
     "name": "FC Porto",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Portugal",
     "population": 0,
@@ -291,7 +291,7 @@
   },
   {
     "name": "Juventus",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -301,7 +301,7 @@
   },
   {
     "name": "Eintracht Frankfurt",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Germany",
     "population": 0,
@@ -311,7 +311,7 @@
   },
   {
     "name": "Manchester United",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -321,7 +321,7 @@
   },
   {
     "name": "AFC Bournemouth",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -331,7 +331,7 @@
   },
   {
     "name": "Brentford FC",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "England",
     "population": 0,
@@ -341,7 +341,7 @@
   },
   {
     "name": "Benfica",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Portugal",
     "population": 0,
@@ -351,7 +351,7 @@
   },
   {
     "name": "Real Betis",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Spain",
     "population": 0,
@@ -361,7 +361,7 @@
   },
   {
     "name": "Marseille",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "France",
     "population": 0,
@@ -371,7 +371,7 @@
   },
   {
     "name": "Lazio",
-    "league": "",
+    "league": "European Super League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -401,7 +401,7 @@
   },
   {
     "name": "Al Hilal",
-    "league": "",
+    "league": "Asian Super League",
     "continent": "Asia",
     "country": "Saudi Arabia",
     "population": 0,
@@ -471,7 +471,7 @@
   },
   {
     "name": "LDU de Quito",
-    "league": "",
+    "league": "CONMEBOL Super League",
     "continent": "South America",
     "country": "Ecuador",
     "population": 0,
@@ -501,7 +501,7 @@
   },
   {
     "name": "Cruzeiro",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Brazil",
       "population": 0,
@@ -541,7 +541,7 @@
     },
     {
       "name": "Racing Club",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Argentina",
       "population": 0,
@@ -581,7 +581,7 @@
     },
     {
       "name": "Pyramids FC",
-      "league": "",
+      "league": "CAF Super League",
       "continent": "Africa",
       "country": "Egypt",
       "population": 0,
@@ -591,8 +591,8 @@
     },
     {
       "name": "Toluca FC",
-      "league": "",
-      "continent": "North America",
+      "league": "North American Super League",
+      "continent": "North/Central America",
       "country": "Mexico",
       "population": 0,
       "city": "Toluca",
@@ -621,7 +621,7 @@
     },
     {
       "name": "Botafogo FR",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Brazil",
       "population": 0,
@@ -631,7 +631,7 @@
     },
     {
       "name": "Fluminense FC",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Brazil",
       "population": 0,
@@ -641,7 +641,7 @@
     },
     {
       "name": "Boca Juniors",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Argentina",
       "population": 0,
@@ -671,8 +671,8 @@
     },
     {
       "name": "Cruz Azul",
-      "league": "",
-      "continent": "North America",
+      "league": "North American Super League",
+      "continent": "North/Central America",
       "country": "Mexico",
       "population": 0,
       "city": "Mexico City",
@@ -731,7 +731,7 @@
     },
     {
       "name": "Al Ahly",
-      "league": "",
+      "league": "CAF Super League",
       "continent": "Africa",
       "country": "Egypt",
       "population": 0,
@@ -771,7 +771,7 @@
     },
     {
       "name": "Mirassol Futebol Clube",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Brazil",
       "population": 0,
@@ -781,8 +781,8 @@
     },
     {
       "name": "América",
-      "league": "",
-      "continent": "North America",
+      "league": "North American Super League",
+      "continent": "North/Central America",
       "country": "Mexico",
       "population": 0,
       "city": "Mexico City",
@@ -801,7 +801,7 @@
     },
     {
       "name": "Al Nassr",
-      "league": "",
+      "league": "Asian Super League",
       "continent": "Asia",
       "country": "Saudi Arabia",
       "population": 0,
@@ -841,7 +841,7 @@
     },
     {
       "name": "Peñarol",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Uruguay",
       "population": 0,
@@ -891,7 +891,7 @@
     },
     {
       "name": "Mamelodi Sundowns FC",
-      "league": "",
+      "league": "CAF Super League",
       "continent": "Africa",
       "country": "South Africa",
       "population": 0,
@@ -931,7 +931,7 @@
     },
     {
       "name": "Rosario Central",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Argentina",
       "population": 0,
@@ -971,7 +971,7 @@
     },
     {
       "name": "Independiente",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Ecuador",
       "population": 0,
@@ -981,7 +981,7 @@
     },
     {
       "name": "Corinthians",
-      "league": "",
+      "league": "CONMEBOL Super League",
       "continent": "South America",
       "country": "Brazil",
       "population": 0,
@@ -998,6 +998,516 @@
       "city": "Herning",
       "kitColor": "#000000",
       "rankingPoints": 1630
-    }
+    },
+  {
+    "name": "Atlético Mineiro",
+    "league": "CONMEBOL Super League",
+    "continent": "South America",
+    "country": "Brazil",
+    "population": 0,
+    "city": "Belo Horizonte",
+    "kitColor": "#000000",
+    "rankingPoints": 1625
+  },
+  {
+    "name": "Lanús",
+    "league": "CONMEBOL Super League",
+    "continent": "South America",
+    "country": "Argentina",
+    "population": 0,
+    "city": "Lanús",
+    "kitColor": "#000000",
+    "rankingPoints": 1622
+  },
+  {
+    "name": "Nacional",
+    "league": "CONMEBOL Super League",
+    "continent": "South America",
+    "country": "Uruguay",
+    "population": 0,
+    "city": "Montevideo",
+    "kitColor": "#000000",
+    "rankingPoints": 1620
+  },
+  {
+    "name": "Bolívar",
+    "league": "CONMEBOL Super League",
+    "continent": "South America",
+    "country": "Bolivia",
+    "population": 0,
+    "city": "La Paz",
+    "kitColor": "#000000",
+    "rankingPoints": 1618
+  },
+  {
+    "name": "Argentinos Juniors",
+    "league": "CONMEBOL Super League",
+    "continent": "South America",
+    "country": "Argentina",
+    "population": 0,
+    "city": "Buenos Aires",
+    "kitColor": "#000000",
+    "rankingPoints": 1613
+  },
+  {
+    "name": "Esperance de Tunis",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Tunisia",
+    "population": 0,
+    "city": "Tunis",
+    "kitColor": "#000000",
+    "rankingPoints": 1617
+  },
+  {
+    "name": "FAR Rabat",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Morocco",
+    "population": 0,
+    "city": "Rabat",
+    "kitColor": "#000000",
+    "rankingPoints": 1577
+  },
+  {
+    "name": "Atletico Petro Luanda",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Angola",
+    "population": 0,
+    "city": "Luanda",
+    "kitColor": "#000000",
+    "rankingPoints": 1555
+  },
+  {
+    "name": "RCA Raja Casablanca Athletic",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Morocco",
+    "population": 0,
+    "city": "Casablanca",
+    "kitColor": "#000000",
+    "rankingPoints": 1550
+  },
+  {
+    "name": "TP Mazembe",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Congo DR",
+    "population": 0,
+    "city": "Lubumbashi",
+    "kitColor": "#000000",
+    "rankingPoints": 1548
+  },
+  {
+    "name": "El Zamalek",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Egypt",
+    "population": 0,
+    "city": "Cairo",
+    "kitColor": "#000000",
+    "rankingPoints": 1539
+  },
+  {
+    "name": "Orlando Pirates",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "South Africa",
+    "population": 0,
+    "city": "Johannesburg",
+    "kitColor": "#000000",
+    "rankingPoints": 1532
+  },
+  {
+    "name": "MC Alger",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Algeria",
+    "population": 0,
+    "city": "Algiers",
+    "kitColor": "#000000",
+    "rankingPoints": 1529
+  },
+  {
+    "name": "CR Belouizdad",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Algeria",
+    "population": 0,
+    "city": "Algiers",
+    "kitColor": "#000000",
+    "rankingPoints": 1528
+  },
+  {
+    "name": "RS Berkane",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Morocco",
+    "population": 0,
+    "city": "Berkane",
+    "kitColor": "#000000",
+    "rankingPoints": 1528
+  },
+  {
+    "name": "US Monastir",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Tunisia",
+    "population": 0,
+    "city": "Monastir",
+    "kitColor": "#000000",
+    "rankingPoints": 1520
+  },
+  {
+    "name": "Wydad Casablanca",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Morocco",
+    "population": 0,
+    "city": "Casablanca",
+    "kitColor": "#000000",
+    "rankingPoints": 1517
+  },
+  {
+    "name": "Al Hilal Omdurman",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Sudan",
+    "population": 0,
+    "city": "Omdurman",
+    "kitColor": "#000000",
+    "rankingPoints": 1512
+  },
+  {
+    "name": "Stade Malien Bamako",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Mali",
+    "population": 0,
+    "city": "Bamako",
+    "kitColor": "#000000",
+    "rankingPoints": 1511
+  },
+  {
+    "name": "Vita Club",
+    "league": "CAF Super League",
+    "continent": "Africa",
+    "country": "Congo DR",
+    "population": 0,
+    "city": "Kinshasa",
+    "kitColor": "#000000",
+    "rankingPoints": 1506
+  },
+  {
+    "name": "Al-Ahli",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Saudi Arabia",
+    "population": 0,
+    "city": "Jeddah",
+    "kitColor": "#000000",
+    "rankingPoints": 1601
+  },
+  {
+    "name": "Persepolis",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Iran",
+    "population": 0,
+    "city": "Tehran",
+    "kitColor": "#000000",
+    "rankingPoints": 1566
+  },
+  {
+    "name": "Sepahan",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Iran",
+    "population": 0,
+    "city": "Isfahan",
+    "kitColor": "#000000",
+    "rankingPoints": 1553
+  },
+  {
+    "name": "Tractor Sazi",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Iran",
+    "population": 0,
+    "city": "Tabriz",
+    "kitColor": "#000000",
+    "rankingPoints": 1549
+  },
+  {
+    "name": "Al Ittihad",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Saudi Arabia",
+    "population": 0,
+    "city": "Jeddah",
+    "kitColor": "#000000",
+    "rankingPoints": 1548
+  },
+  {
+    "name": "Kawasaki Frontale",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Japan",
+    "population": 0,
+    "city": "Kawasaki",
+    "kitColor": "#000000",
+    "rankingPoints": 1543
+  },
+  {
+    "name": "Vissel Kobe",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Japan",
+    "population": 0,
+    "city": "Kobe",
+    "kitColor": "#000000",
+    "rankingPoints": 1542
+  },
+  {
+    "name": "Al-Sadd",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Qatar",
+    "population": 0,
+    "city": "Doha",
+    "kitColor": "#000000",
+    "rankingPoints": 1538
+  },
+  {
+    "name": "Kashima Antlers",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Japan",
+    "population": 0,
+    "city": "Kashima",
+    "kitColor": "#000000",
+    "rankingPoints": 1535
+  },
+  {
+    "name": "Jeonbuk FC",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "South Korea",
+    "population": 0,
+    "city": "Jeonju",
+    "kitColor": "#000000",
+    "rankingPoints": 1532
+  },
+  {
+    "name": "Al Ahli",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "United Arab Emirates",
+    "population": 0,
+    "city": "Dubai",
+    "kitColor": "#000000",
+    "rankingPoints": 1529
+  },
+  {
+    "name": "Buriram United",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Thailand",
+    "population": 0,
+    "city": "Buriram",
+    "kitColor": "#000000",
+    "rankingPoints": 1524
+  },
+  {
+    "name": "Al-Duhail SC",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Qatar",
+    "population": 0,
+    "city": "Doha",
+    "kitColor": "#000000",
+    "rankingPoints": 1520
+  },
+  {
+    "name": "Shanghai Shenhua",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "China PR",
+    "population": 0,
+    "city": "Shanghai",
+    "kitColor": "#000000",
+    "rankingPoints": 1519
+  },
+  {
+    "name": "Sanfrecce Hiroshima",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "Japan",
+    "population": 0,
+    "city": "Hiroshima",
+    "kitColor": "#000000",
+    "rankingPoints": 1517
+  },
+  {
+    "name": "Shanghai Port F.C.",
+    "league": "Asian Super League",
+    "continent": "Asia",
+    "country": "China PR",
+    "population": 0,
+    "city": "Shanghai",
+    "kitColor": "#000000",
+    "rankingPoints": 1516
+  },
+  {
+    "name": "Tigres UANL",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Mexico",
+    "population": 0,
+    "city": "San Nicolás de los Garza",
+    "kitColor": "#000000",
+    "rankingPoints": 1622
+  },
+  {
+    "name": "Monterrey",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Mexico",
+    "population": 0,
+    "city": "Monterrey",
+    "kitColor": "#000000",
+    "rankingPoints": 1620
+  },
+  {
+    "name": "Olimpia",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Honduras",
+    "population": 0,
+    "city": "Tegucigalpa",
+    "kitColor": "#000000",
+    "rankingPoints": 1571
+  },
+  {
+    "name": "Guadalajara",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Mexico",
+    "population": 0,
+    "city": "Guadalajara",
+    "kitColor": "#000000",
+    "rankingPoints": 1549
+  },
+  {
+    "name": "CF Pachuca",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Mexico",
+    "population": 0,
+    "city": "Pachuca",
+    "kitColor": "#000000",
+    "rankingPoints": 1532
+  },
+  {
+    "name": "LD Alajuelense",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Costa Rica",
+    "population": 0,
+    "city": "Alajuela",
+    "kitColor": "#000000",
+    "rankingPoints": 1522
+  },
+  {
+    "name": "Deportivo Saprissa",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Costa Rica",
+    "population": 0,
+    "city": "San José",
+    "kitColor": "#000000",
+    "rankingPoints": 1512
+  },
+  {
+    "name": "Los Angeles FC",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "United States",
+    "population": 0,
+    "city": "Los Angeles",
+    "kitColor": "#000000",
+    "rankingPoints": 1504
+  },
+  {
+    "name": "Inter Miami CF",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "United States",
+    "population": 0,
+    "city": "Miami",
+    "kitColor": "#000000",
+    "rankingPoints": 1502
+  },
+  {
+    "name": "CSD Municipal",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Guatemala",
+    "population": 0,
+    "city": "Guatemala City",
+    "kitColor": "#000000",
+    "rankingPoints": 1499
+  },
+  {
+    "name": "Monarcas Morelia",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Mexico",
+    "population": 0,
+    "city": "Morelia",
+    "kitColor": "#000000",
+    "rankingPoints": 1488
+  },
+  {
+    "name": "Club Tijuana",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Mexico",
+    "population": 0,
+    "city": "Tijuana",
+    "kitColor": "#000000",
+    "rankingPoints": 1488
+  },
+  {
+    "name": "Pumas UNAM",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "Mexico",
+    "population": 0,
+    "city": "Mexico City",
+    "kitColor": "#000000",
+    "rankingPoints": 1482
+  },
+  {
+    "name": "Alianza FC",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "El Salvador",
+    "population": 0,
+    "city": "San Salvador",
+    "kitColor": "#000000",
+    "rankingPoints": 1476
+  },
+  {
+    "name": "Columbus Crew",
+    "league": "North American Super League",
+    "continent": "North/Central America",
+    "country": "United States",
+    "population": 0,
+    "city": "Columbus",
+    "kitColor": "#000000",
+    "rankingPoints": 1472
+  }
   ]
 

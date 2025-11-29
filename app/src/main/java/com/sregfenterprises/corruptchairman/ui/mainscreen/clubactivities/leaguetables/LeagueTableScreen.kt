@@ -6,20 +6,28 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.sregfenterprises.corruptchairman.viewmodel.LeagueViewModel
+import com.sregfenterprises.corruptchairman.data.ClubRepository
+import com.sregfenterprises.corruptchairman.model.Club
+import kotlinx.coroutines.flow.collect
 
 @Composable
 fun LeagueTableScreen(
     leagueName: String,
-    leagueViewModel: LeagueViewModel,
+    clubRepository: ClubRepository,
     onBack: () -> Unit
 ) {
-    val leagues = leagueViewModel.leagues.value
-    val league = leagues.firstOrNull { it.name == leagueName }
+    var clubs by remember { mutableStateOf<List<Club>>(emptyList()) }
+
+    // Collect the Flow from the repository
+    LaunchedEffect(leagueName) {
+        clubRepository.getClubsByLeague(leagueName).collect { clubList ->
+            clubs = clubList
+        }
+    }
 
     Column(
         modifier = Modifier
@@ -36,39 +44,38 @@ fun LeagueTableScreen(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        if (league == null) {
-            Text("League not found.")
-            return@Column
-        }
-
         Text(
-            text = league.name,
+            text = leagueName,
             style = MaterialTheme.typography.headlineMedium
         )
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        val sortedClubs = league.clubs.sortedByDescending { it.rankingPoints }
+        if (clubs.isEmpty()) {
+            Text("No clubs found for this league.")
+        } else {
+            val sortedClubs = clubs.sortedByDescending { it.rankingPoints }
 
-        LazyColumn {
-            itemsIndexed(sortedClubs) { index, club ->
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 8.dp),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Text(
-                        text = "${index + 1}.",
-                        modifier = Modifier.width(32.dp)
-                    )
-                    Text(
-                        text = club.name,
-                        modifier = Modifier.weight(1f)
-                    )
-                    Text(
-                        text = "${club.rankingPoints} pts"
-                    )
+            LazyColumn {
+                itemsIndexed(sortedClubs) { index, club ->
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(vertical = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            text = "${index + 1}.",
+                            modifier = Modifier.width(32.dp)
+                        )
+                        Text(
+                            text = club.name,
+                            modifier = Modifier.weight(1f)
+                        )
+                        Text(
+                            text = "${club.rankingPoints} pts"
+                        )
+                    }
                 }
             }
         }

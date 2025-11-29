@@ -1,7 +1,6 @@
 package com.sregfenterprises.corruptchairman
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -18,13 +17,11 @@ import com.sregfenterprises.corruptchairman.ui.mainscreen.MainScreen
 import com.sregfenterprises.corruptchairman.ui.takeover.TakeoverTeamScreen
 import com.sregfenterprises.corruptchairman.ui.theme.CorruptChairmanTheme
 import com.sregfenterprises.corruptchairman.ui.welcome.WelcomeScreen
-import com.sregfenterprises.corruptchairman.viewmodel.LeagueViewModel
 import com.sregfenterprises.corruptchairman.viewmodel.TakeoverViewModel
 
 class MainActivity : ComponentActivity() {
 
     private val takeoverViewModel: TakeoverViewModel by viewModels()
-    private val leagueViewModel: LeagueViewModel by viewModels() // <-- LeagueViewModel instance
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,25 +38,10 @@ class MainActivity : ComponentActivity() {
                 var userHasProfile by remember { mutableStateOf(UserProfileManager.hasProfile()) }
                 var selectedClub by remember { mutableStateOf<Club?>(null) }
 
-                // Observe leagues StateFlow to trigger generator and log results
-                LaunchedEffect(leagueViewModel) {
-                    leagueViewModel.leagues.collect { leagues ->
-                        if (leagues.isNotEmpty()) {
-                            Log.d(
-                                "MAIN_ACTIVITY",
-                                "League Generator ran: ${leagues.size} leagues created. First league: ${leagues.first().name}"
-                            )
-                        } else {
-                            Log.d("MAIN_ACTIVITY", "League Generator has not yet produced leagues")
-                        }
-                    }
-                }
-
-                // Auto-jump to MainScreen if takeover already happened
+                // Auto-skip to main screen if club already chosen
                 LaunchedEffect(Unit) {
                     val prefs = applicationContext.getSharedPreferences("game_data", MODE_PRIVATE)
                     if (prefs.getBoolean("hasTakenOverClub", false)) {
-
                         selectedClub = Club(
                             name = prefs.getString("clubName", "") ?: "",
                             league = prefs.getString("league", "") ?: "",
@@ -69,23 +51,20 @@ class MainActivity : ComponentActivity() {
                             city = prefs.getString("city", "") ?: "",
                             kitColor = prefs.getString("kitColor", "#FF0000") ?: "#FF0000"
                         )
-
                         currentScreen = "main"
                     }
                 }
 
                 when (currentScreen) {
 
-                    // 1️⃣ Welcome Screen
+                    // Welcome
                     "welcome" -> WelcomeScreen(
                         onContinue = {
-                            currentScreen =
-                                if (userHasProfile) "home"
-                                else "createProfile"
+                            currentScreen = if (userHasProfile) "home" else "createProfile"
                         }
                     )
 
-                    // 2️⃣ Create Profile
+                    // Create Profile
                     "createProfile" -> CreateProfileScreen(
                         clubRepository = repository,
                         onProfileCreated = {
@@ -95,40 +74,36 @@ class MainActivity : ComponentActivity() {
                         onBack = { currentScreen = "welcome" }
                     )
 
-                    // 3️⃣ Home Screen
+                    // Home
                     "home" -> HomeScreen(
-                        onTakeoverTeamClicked = {
-                            currentScreen = "takeover"
+                        onTakeoverTeamClicked = { currentScreen = "takeover" }
+                    )
+
+                    // Team Takeover
+                    "takeover" -> TakeoverTeamScreen(
+                        viewModel = takeoverViewModel,
+                        onBack = { currentScreen = "home" },
+                        onClubSelected = { club ->
+                            selectedClub = club
+                            currentScreen = "summary"
                         }
                     )
 
-                    // 4️⃣ Takeover Team Selection
-                    "takeover" -> {
-                        TakeoverTeamScreen(
-                            viewModel = takeoverViewModel,
-                            onBack = { currentScreen = "home" },
-                            onClubSelected = { club ->
-                                selectedClub = club
-                                currentScreen = "summary"
-                            }
-                        )
-                    }
-
-                    // 5️⃣ Club Summary / Takeover Confirmation
+                    // Club Summary
                     "summary" -> selectedClub?.let { club ->
                         ClubDetailScreen(
                             club = club,
                             showTakeoverButton = true,
-                            onTakeoverConfirmed = {
-                                currentScreen = "main"
-                            }
+                            onTakeoverConfirmed = { currentScreen = "main" }
                         )
                     }
 
-                    // 6️⃣ Main Screen
-                    "main" -> MainScreen()
+                    // MAIN SCREEN (after takeover)
+                    "main" -> MainScreen(
+                        clubRepository = repository   // ✅ FIXED – only this is needed
+                    )
 
-                    // 7️⃣ Chairman Profile
+                    // Chairman Profile
                     "chairmanProfile" -> ChairmanProfileScreen(
                         onBack = { currentScreen = "main" }
                     )
