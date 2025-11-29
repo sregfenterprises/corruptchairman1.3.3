@@ -1,7 +1,5 @@
 package com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities
 
-
-
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
@@ -17,7 +15,8 @@ fun clubactivitiesscreen(
     onBusinessActivities: () -> Unit = {},
     onSquad: () -> Unit = {},
     onBackroomStaff: () -> Unit = {},
-    onStadium: () -> Unit = {}
+    onStadium: () -> Unit = {},
+    onLeagueTables: () -> Unit   // ✅ REQUIRED
 ) {
     Column(
         modifier = Modifier
@@ -26,29 +25,28 @@ fun clubactivitiesscreen(
         verticalArrangement = Arrangement.Top
     ) {
 
-        // Screen Title
         Text(
             text = "Club Activities",
             style = MaterialTheme.typography.headlineMedium
         )
 
         Button(
-            onClick = { /* TODO: Squad */ },
+            onClick = onSquad,
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("Squad") }
 
         Button(
-            onClick = { /* TODO: Backroom Staff */ },
+            onClick = onBackroomStaff,
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("Backroom Staff") }
 
         Button(
-            onClick = { /* TODO: Fixtues */ },
+            onClick = { /* TODO: Fixtures */ },
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("Fixtures") }
 
         Button(
-            onClick = { /* TODO: League Tables */ },
+            onClick = onLeagueTables,     // ✅ Now connected properly
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("League Tables") }
 
@@ -57,23 +55,16 @@ fun clubactivitiesscreen(
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("Training") }
 
-
         Button(
-            onClick = { /* TODO: Stadium */ },
+            onClick = onStadium,
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("Stadium") }
 
-        // 🔙 Back button
         Button(
             onClick = onBack,
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) {
             Text("Back")
         }
-
-
-    }}
-
-
-
-
+    }
+}

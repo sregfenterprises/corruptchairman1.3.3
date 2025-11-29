@@ -16,13 +16,17 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.sregfenterprises.corruptchairman.model.Club
+import com.sregfenterprises.corruptchairman.viewmodel.LeagueViewModel
+import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.leaguetables.LeagueSelectionScreen
+import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.leaguetables.LeagueTableScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.chairmanactivities.ChairmanActivitiesScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.chairmanactivities.ChairmanProfileScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.clubactivitiesscreen
 
 @Composable
 fun MainScreen(
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    leagueViewModel: LeagueViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
 ) {
     val navController = rememberNavController()
 
@@ -59,7 +63,29 @@ fun MainScreen(
         composable("clubActivities") {
             clubactivitiesscreen(
                 onBack = { navController.popBackStack() },
-                onProfileClicked = { /* TODO: handle profile click */ }
+                onProfileClicked = { /* TODO */ },
+                onLeagueTables = { navController.navigate("league_selection") }  // NEW
+            )
+        }
+
+        // ⭐ NEW ROUTE: SELECT LEAGUE (World or Europe)
+        composable("league_selection") {
+            LeagueSelectionScreen(
+                onLeagueSelected = { leagueName ->
+                    navController.navigate("league_table/$leagueName")
+                },
+                onBack = { navController.popBackStack() },
+                leagueViewModel = leagueViewModel
+            )
+        }
+
+        // ⭐ NEW ROUTE: DISPLAY LEAGUE TABLE
+        composable("league_table/{leagueName}") { backStackEntry ->
+            val leagueName = backStackEntry.arguments?.getString("leagueName") ?: ""
+            LeagueTableScreen(
+                leagueName = leagueName,
+                leagueViewModel = leagueViewModel,
+                onBack = { navController.popBackStack() }
             )
         }
     }
