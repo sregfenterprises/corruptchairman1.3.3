@@ -381,7 +381,7 @@
   },
   {
     "name": "Atalanta",
-    "league": "",
+    "league": "Italian Premier League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -391,7 +391,7 @@
   },
   {
     "name": "Club Brugge",
-    "league": "",
+    "league": "Belgian Pro League",
     "continent": "Europe",
     "country": "Belgium",
     "population": 0,
@@ -491,7 +491,7 @@
   },
   {
     "name": "Como 1907",
-    "league": "",
+    "league": "Italian Premier League",
     "continent": "Europe",
     "country": "Italy",
     "population": 0,
@@ -511,7 +511,7 @@
     },
     {
       "name": "Union St. Gilloise",
-      "league": "",
+      "league": "Belgian Pro League",
       "continent": "Europe",
       "country": "Belgium",
       "population": 0,
@@ -851,7 +851,7 @@
     },
     {
       "name": "Torino",
-      "league": "",
+      "league": "Italian Premier League",
       "continent": "Europe",
       "country": "Italy",
       "population": 0,
@@ -861,7 +861,7 @@
     },
     {
       "name": "Fiorentina",
-      "league": "",
+      "league": "Italian Premier League",
       "continent": "Europe",
       "country": "Italy",
       "population": 0,
@@ -1508,6 +1508,506 @@
     "city": "Columbus",
     "kitColor": "#000000",
     "rankingPoints": 1472
+  },
+  {
+    "name": "Auckland City",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "population": 0,
+    "city": "Auckland",
+    "kitColor": "#000000",
+    "rankingPoints": 1551
+  },
+  {
+    "name": "Team Wellington",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "population": 0,
+    "city": "Wellington",
+    "kitColor": "#000000",
+    "rankingPoints": 1498
+  },
+  {
+    "name": "Hekari United",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Papua New Guinea",
+    "population": 0,
+    "city": "Port Moresby",
+    "kitColor": "#000000",
+    "rankingPoints": 1372
+  },
+  {
+    "name": "Waitakere United",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "population": 0,
+    "city": "Waitakere",
+    "kitColor": "#000000",
+    "rankingPoints": 1366
+  },
+  {
+    "name": "Eastern Suburbs",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "population": 0,
+    "city": "Auckland",
+    "kitColor": "#000000",
+    "rankingPoints": 1359
+  },
+  {
+    "name": "Eastern Stars",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Papua New Guinea",
+    "population": 0,
+    "city": "Milne Bay",
+    "kitColor": "#000000",
+    "rankingPoints": 1356
+  },
+  {
+    "name": "Tukoko University",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Papua New Guinea",
+    "population": 0,
+    "city": "Lae",
+    "kitColor": "#000000",
+    "rankingPoints": 1352
+  },
+  {
+    "name": "AS Magenta",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Caledonia",
+    "population": 0,
+    "city": "Nouméa",
+    "kitColor": "#000000",
+    "rankingPoints": 1340
+  },
+  {
+    "name": "Canterbury United",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "population": 0,
+    "city": "Christchurch",
+    "kitColor": "#000000",
+    "rankingPoints": 1336
+  },
+  {
+    "name": "Amicale FC",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Vanuatu",
+    "population": 0,
+    "city": "Port Vila",
+    "kitColor": "#000000",
+    "rankingPoints": 1308
+  },
+  {
+    "name": "Auckland FC",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "population": 0,
+    "city": "Auckland",
+    "kitColor": "#000000",
+    "rankingPoints": 1303
+  },
+  {
+    "name": "Lautoka",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Fiji",
+    "population": 0,
+    "city": "Lautoka",
+    "kitColor": "#000000",
+    "rankingPoints": 1303
+  },
+  {
+    "name": "Western United FC",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Solomon Islands",
+    "population": 0,
+    "city": "Honiara",
+    "kitColor": "#000000",
+    "rankingPoints": 1296
+  },
+  {
+    "name": "Koloale",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Solomon Islands",
+    "population": 0,
+    "city": "Honiara",
+    "kitColor": "#000000",
+    "rankingPoints": 1289
+  },
+  {
+    "name": "Hawke's Bay United",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Zealand",
+    "population": 0,
+    "city": "Napier",
+    "kitColor": "#000000",
+    "rankingPoints": 1281
+  },
+  {
+    "name": "Pirae",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "French Polynesia",
+    "population": 0,
+    "city": "Pirae",
+    "kitColor": "#000000",
+    "rankingPoints": 1278
+  },
+  {
+    "name": "Suva",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "Fiji",
+    "population": 0,
+    "city": "Suva",
+    "kitColor": "#000000",
+    "rankingPoints": 1278
+  },
+  {
+    "name": "Hienghène Sport",
+    "league": "Oceania Super League",
+    "continent": "Oceania",
+    "country": "New Caledonia",
+    "population": 0,
+    "city": "Hienghène",
+    "kitColor": "#000000",
+    "rankingPoints": 1275
+  },
+  {
+    "name": "Sassuolo",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Sassuolo",
+    "kitColor": "#000000",
+    "rankingPoints": 1563
+  },
+  {
+    "name": "Genoa",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Genoa",
+    "kitColor": "#000000",
+    "rankingPoints": 1558
+  },
+  {
+    "name": "Udinese",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Udine",
+    "kitColor": "#000000",
+    "rankingPoints": 1545
+  },
+  {
+    "name": "Parma Calcio 1913",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Parma",
+    "kitColor": "#000000",
+    "rankingPoints": 1541
+  },
+  {
+    "name": "Cagliari",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Cagliari",
+    "kitColor": "#000000",
+    "rankingPoints": 1536
+  },
+  {
+    "name": "Carpi",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Carpi",
+    "kitColor": "#000000",
+    "rankingPoints": 1528
+  },
+  {
+    "name": "US Cremonese",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Cremona",
+    "kitColor": "#000000",
+    "rankingPoints": 1526
+  },
+  {
+    "name": "Pisa SC",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Pisa",
+    "kitColor": "#000000",
+    "rankingPoints": 1522
+  },
+  {
+    "name": "Lecce",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Lecce",
+    "kitColor": "#000000",
+    "rankingPoints": 1515
+  },
+  {
+    "name": "Empoli FC",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Empoli",
+    "kitColor": "#000000",
+    "rankingPoints": 1498
+  },
+  {
+    "name": "Frosinone",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Frosinone",
+    "kitColor": "#000000",
+    "rankingPoints": 1496
+  },
+  {
+    "name": "Catania",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Catania",
+    "kitColor": "#000000",
+    "rankingPoints": 1494
+  },
+  {
+    "name": "Hellas Verona",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Verona",
+    "kitColor": "#000000",
+    "rankingPoints": 1482
+  },
+  {
+    "name": "Venezia FC",
+    "league": "Italian Premier League",
+    "continent": "Europe",
+    "country": "Italy",
+    "population": 0,
+    "city": "Venice",
+    "kitColor": "#000000",
+    "rankingPoints": 1479
+  },
+  {
+    "name": "KRC Genk",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Genk",
+    "kitColor": "#000000",
+    "rankingPoints": 1594
+  },
+  {
+    "name": "RSC Anderlecht",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Anderlecht",
+    "kitColor": "#000000",
+    "rankingPoints": 1585
+  },
+  {
+    "name": "Gent",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Ghent",
+    "kitColor": "#000000",
+    "rankingPoints": 1480
+  },
+  {
+    "name": "KV Mechelen",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Mechelen",
+    "kitColor": "#000000",
+    "rankingPoints": 1465
+  },
+  {
+    "name": "Royal Antwerp FC",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Antwerp",
+    "kitColor": "#000000",
+    "rankingPoints": 1463
+  },
+  {
+    "name": "Sporting Charleroi",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Charleroi",
+    "kitColor": "#000000",
+    "rankingPoints": 1454
+  },
+  {
+    "name": "Sint-Truiden",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Sint-Truiden",
+    "kitColor": "#000000",
+    "rankingPoints": 1441
+  },
+  {
+    "name": "Westerlo",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Westerlo",
+    "kitColor": "#000000",
+    "rankingPoints": 1400
+  },
+  {
+    "name": "Cercle Brugge",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Bruges",
+    "kitColor": "#000000",
+    "rankingPoints": 1394
+  },
+  {
+    "name": "Standard Liège",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Liège",
+    "kitColor": "#000000",
+    "rankingPoints": 1389
+  },
+  {
+    "name": "Oud-Heverlee Leuven",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Leuven",
+    "kitColor": "#000000",
+    "rankingPoints": 1377
+  },
+  {
+    "name": "Mouscron-Péruwelz",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Mouscron",
+    "kitColor": "#000000",
+    "rankingPoints": 1361
+  },
+  {
+    "name": "RAAL La Louvière",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "La Louvière",
+    "kitColor": "#000000",
+    "rankingPoints": 1361
+  },
+  {
+    "name": "Zulte Waregem",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Waregem",
+    "kitColor": "#000000",
+    "rankingPoints": 1343
+  },
+  {
+    "name": "Royal Excel Mouscron Péruwelz",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Mouscron",
+    "kitColor": "#000000",
+    "rankingPoints": 1328
+  },
+  {
+    "name": "F.C.V. Dender E.H.",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Denderleeuw",
+    "kitColor": "#000000",
+    "rankingPoints": 1325
+  },
+  {
+    "name": "Roeselare",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Roeselare",
+    "kitColor": "#000000",
+    "rankingPoints": 1325
+  },
+  {
+    "name": "Kortrijk",
+    "league": "Belgian Pro League",
+    "continent": "Europe",
+    "country": "Belgium",
+    "population": 0,
+    "city": "Kortrijk",
+    "kitColor": "#000000",
+    "rankingPoints": 1317
   }
   ]
 

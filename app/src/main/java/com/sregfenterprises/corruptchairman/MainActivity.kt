@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
                 var userHasProfile by remember { mutableStateOf(UserProfileManager.hasProfile()) }
                 var selectedClub by remember { mutableStateOf<Club?>(null) }
 
-                // Auto-skip to main screen if club already chosen
+                // Auto-skip to main screen if user already took over a club
                 LaunchedEffect(Unit) {
                     val prefs = applicationContext.getSharedPreferences("game_data", MODE_PRIVATE)
                     if (prefs.getBoolean("hasTakenOverClub", false)) {
@@ -60,7 +60,8 @@ class MainActivity : ComponentActivity() {
                     // Welcome
                     "welcome" -> WelcomeScreen(
                         onContinue = {
-                            currentScreen = if (userHasProfile) "home" else "createProfile"
+                            currentScreen =
+                                if (userHasProfile) "home" else "createProfile"
                         }
                     )
 
@@ -94,13 +95,15 @@ class MainActivity : ComponentActivity() {
                         ClubDetailScreen(
                             club = club,
                             showTakeoverButton = true,
-                            onTakeoverConfirmed = { currentScreen = "main" }
+                            onTakeoverConfirmed = {
+                                currentScreen = "main"
+                            }
                         )
                     }
 
                     // MAIN SCREEN (after takeover)
                     "main" -> MainScreen(
-                        clubRepository = repository   // ✅ FIXED – only this is needed
+                        clubRepository = repository    // ✅ Correct and updated
                     )
 
                     // Chairman Profile

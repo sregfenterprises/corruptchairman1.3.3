@@ -5,10 +5,12 @@ import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.sregfenterprises.corruptchairman.model.Club
+import com.sregfenterprises.corruptchairman.model.Match
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.withContext
 
 class ClubRepository(
@@ -17,10 +19,14 @@ class ClubRepository(
 ) {
 
     private val TAG = "ClubRepository"
+    private val PREFS_NAME = "fixtures_data"
+    private val FIXTURES_KEY = "fixtures_json"
+    private val gson = Gson()
 
-    /**
-     * Initialize the database from JSON if it's empty
-     */
+    // ---------------------------
+    // INITIAL CLUB SETUP
+    // ---------------------------
+
     suspend fun initializeDataIfNeeded() {
         val continentsCount = dao.getContinents().first().size
         if (continentsCount == 0) {
@@ -28,66 +34,69 @@ class ClubRepository(
             val clubs = loadClubsFromJson()
             dao.insertClubs(clubs)
             Log.d(TAG, "Inserted ${clubs.size} clubs into DB")
-        } else {
-            Log.d(TAG, "Database already has data. Skipping initialization.")
         }
     }
 
-    /**
-     * Load club data from assets/clubs.json
-     */
     private suspend fun loadClubsFromJson(): List<Club> = withContext(Dispatchers.IO) {
         val jsonString = context.assets.open("clubs.json")
             .bufferedReader()
             .use { it.readText() }
         val clubType = object : TypeToken<List<Club>>() {}.type
-        val clubs: List<Club> = Gson().fromJson(jsonString, clubType)
-        Log.d(TAG, "Parsed ${clubs.size} clubs from JSON")
-        clubs
+        Gson().fromJson(jsonString, clubType)
     }
 
-    /**
-     * Reactive list of continents
-     */
-    fun getContinents(): Flow<List<String>> {
-        return dao.getContinents().flowOn(Dispatchers.IO)
-    }
+    fun getContinents(): Flow<List<String>> =
+        dao.getContinents().flowOn(Dispatchers.IO)
 
-    /**
-     * Reactive list of countries for a continent
-     */
-    fun getCountriesByContinent(continent: String): Flow<List<String>> {
-        return dao.getCountriesByContinent(continent).flowOn(Dispatchers.IO)
-    }
+    fun getCountriesByContinent(continent: String): Flow<List<String>> =
+        dao.getCountriesByContinent(continent).flowOn(Dispatchers.IO)
 
-    /**
-     * Reactive list of clubs for a country
-     */
-    fun getClubsByCountry(country: String): Flow<List<Club>> {
-        return dao.getClubsByCountry(country).flowOn(Dispatchers.IO)
-    }
+    fun getClubsByCountry(country: String): Flow<List<Club>> =
+        dao.getClubsByCountry(country).flowOn(Dispatchers.IO)
 
-    /**
-     * Get all clubs (needed for league generation)
-     */
-    fun getAllClubs(): Flow<List<Club>> {
-        return dao.getAllClubs().flowOn(Dispatchers.IO)
-    }
+    fun getAllClubs(): Flow<List<Club>> =
+        dao.getAllClubs().flowOn(Dispatchers.IO)
 
-    /**
-     * Assign a league to a list of clubs and persist in the database
-     */
     suspend fun assignLeagueToClubs(clubs: List<Club>, leagueName: String) {
-        Log.d(TAG, "Assigning league '$leagueName' to ${clubs.size} clubs")
         clubs.forEach { it.league = leagueName }
-        dao.insertClubs(clubs) // Upsert with REPLACE strategy
-        Log.d(TAG, "League '$leagueName' assigned to clubs and persisted")
+        dao.insertClubs(clubs)
     }
 
-    /**
-     * Optional: get all clubs in a specific league
-     */
-    fun getClubsByLeague(leagueName: String): Flow<List<Club>> {
-        return dao.getClubsByLeague(leagueName).flowOn(Dispatchers.IO)
+    fun getClubsByLeague(leagueName: String): Flow<List<Club>> =
+        dao.getClubsByLeague(leagueName).flowOn(Dispatchers.IO)
+
+
+    // ---------------------------------------------------------
+    // 🔥 FIXTURE STORAGE SYSTEM (SharedPreferences + Gson)
+    // ---------------------------------------------------------
+
+    /** Save fixtures to SharedPreferences */
+    suspend fun saveFixtures(fixtures: List<Match>) = withContext(Dispatchers.IO) {
+        val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val json = gson.toJson(fixtures)
+        prefs.edit().putString(FIXTURES_KEY, json).apply()
+        Log.d(TAG, "Saved ${fixtures.size} fixtures")
+    }
+
+    /** Load fixtures from SharedPreferences */
+    fun getAllFixtures(): Flow<List<Match>> = flow {
+        val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val json = prefs.getString(FIXTURES_KEY, null)
+
+        if (json == null) {
+            emit(emptyList())
+        } else {
+            val type = object : TypeToken<List<Match>>() {}.type
+            val fixtures: List<Match> = gson.fromJson(json, type)
+            emit(fixtures)
+        }
+    }.flowOn(Dispatchers.IO)
+
+    /** Helper to load once synchronously (not reactive) */
+    suspend fun loadFixturesOnce(): List<Match> = withContext(Dispatchers.IO) {
+        val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val json = prefs.getString(FIXTURES_KEY, null) ?: return@withContext emptyList()
+        val type = object : TypeToken<List<Match>>() {}.type
+        gson.fromJson(json, type)
     }
 }

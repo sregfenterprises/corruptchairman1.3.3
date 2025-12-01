@@ -15,27 +15,24 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.sregfenterprises.corruptchairman.model.Club
 import com.sregfenterprises.corruptchairman.data.ClubRepository
+import com.sregfenterprises.corruptchairman.model.Club
+import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.fixtures.FixturesScreen
+import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.clubactivitiesscreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.leaguetables.LeagueSelectionScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.leaguetables.LeagueTableScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.chairmanactivities.ChairmanActivitiesScreen
 import com.sregfenterprises.corruptchairman.ui.mainscreen.chairmanactivities.ChairmanProfileScreen
-import com.sregfenterprises.corruptchairman.ui.mainscreen.clubactivities.clubactivitiesscreen
 
 @Composable
 fun MainScreen(
     modifier: Modifier = Modifier,
-    clubRepository: ClubRepository    // ✅ Only this now
+    clubRepository: ClubRepository
 ) {
     val navController = rememberNavController()
 
-    NavHost(
-        navController = navController,
-        startDestination = "mainHome"
-    ) {
+    NavHost(navController = navController, startDestination = "mainHome") {
 
-        // MAIN HOME SCREEN
         composable("mainHome") {
             MainHomeContent(
                 modifier = modifier,
@@ -44,7 +41,6 @@ fun MainScreen(
             )
         }
 
-        // CHAIRMAN ACTIVITIES SCREEN
         composable("chairmanActivities") {
             ChairmanActivitiesScreen(
                 onBack = { navController.popBackStack() },
@@ -52,26 +48,24 @@ fun MainScreen(
             )
         }
 
-        // CHAIRMAN PROFILE SCREEN
         composable("chairmanProfile") {
             ChairmanProfileScreen(
                 onBack = { navController.popBackStack() }
             )
         }
 
-        // CLUB ACTIVITIES SCREEN
         composable("clubActivities") {
             clubactivitiesscreen(
                 onBack = { navController.popBackStack() },
-                onProfileClicked = { },
-                onLeagueTables = { navController.navigate("league_selection") }
+                onProfileClicked = {},
+                onLeagueTables = { navController.navigate("league_selection") },
+                onFixtures = { navController.navigate("fixtures") }
             )
         }
 
-        // SELECT LEAGUE
         composable("league_selection") {
             LeagueSelectionScreen(
-                clubRepository = clubRepository,    // ✅ FIXED
+                clubRepository = clubRepository,
                 onLeagueSelected = { leagueName ->
                     navController.navigate("league_table/$leagueName")
                 },
@@ -79,18 +73,25 @@ fun MainScreen(
             )
         }
 
-        // LEAGUE TABLE
-        composable("league_table/{leagueName}") { backStackEntry ->
-            val leagueName = backStackEntry.arguments?.getString("leagueName") ?: ""
+        composable("league_table/{leagueName}") { entry ->
+            val leagueName = entry.arguments?.getString("leagueName") ?: ""
             LeagueTableScreen(
                 leagueName = leagueName,
-                clubRepository = clubRepository,    // ✅ FIXED
+                clubRepository = clubRepository,
+                onBack = { navController.popBackStack() }
+            )
+        }
+
+        composable("fixtures") {
+            FixturesScreen(
+                repository = clubRepository,
                 onBack = { navController.popBackStack() }
             )
         }
     }
 }
 
+// --- Move MainHomeContent outside MainScreen ---
 @Composable
 private fun MainHomeContent(
     modifier: Modifier = Modifier,
@@ -132,30 +133,22 @@ private fun MainHomeContent(
 
             Button(
                 onClick = onChairmanActivities,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(vertical = 8.dp)
-            ) {
-                Text("Chairman Activities")
-            }
+                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
+            ) { Text("Chairman Activities") }
 
             Button(
                 onClick = onClubActivities,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(vertical = 8.dp)
-            ) {
-                Text("Club Activities")
-            }
+                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
+            ) { Text("Club Activities") }
         }
     } ?: run {
         Text("No club selected", modifier = Modifier.padding(24.dp))
     }
 }
 
+// --- Move loadClubFromPrefs outside MainScreen ---
 private fun loadClubFromPrefs(context: Context): Club? {
     val prefs = context.getSharedPreferences("game_data", Context.MODE_PRIVATE)
-
     return if (!prefs.getBoolean("hasTakenOverClub", false)) null
     else Club(
         name = prefs.getString("clubName", "") ?: "",

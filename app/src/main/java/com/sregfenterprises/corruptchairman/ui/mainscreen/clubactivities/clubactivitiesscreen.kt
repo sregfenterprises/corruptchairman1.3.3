@@ -16,7 +16,8 @@ fun clubactivitiesscreen(
     onSquad: () -> Unit = {},
     onBackroomStaff: () -> Unit = {},
     onStadium: () -> Unit = {},
-    onLeagueTables: () -> Unit   // ✅ REQUIRED
+    onLeagueTables: () -> Unit,
+    onFixtures: () -> Unit   // ✅ New parameter
 ) {
     Column(
         modifier = Modifier
@@ -41,12 +42,12 @@ fun clubactivitiesscreen(
         ) { Text("Backroom Staff") }
 
         Button(
-            onClick = { /* TODO: Fixtures */ },
+            onClick = onFixtures,   // ✅ Hooked up
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("Fixtures") }
 
         Button(
-            onClick = onLeagueTables,     // ✅ Now connected properly
+            onClick = onLeagueTables,
             modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp)
         ) { Text("League Tables") }
 
